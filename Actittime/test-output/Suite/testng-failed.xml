@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testurl" value="http://127.0.0.1/login.do"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testurl" value="http://127.0.0.1/login.do"/>
+    <classes>
+      <class name="Com.actitime.script.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validLogin"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- Com.actitime.script.LoginTest -->
+      <class name="Com.actitime.script.TaskTest">
+        <methods>
+          <include name="CreateNeewProject"/>
+          <include name="createCustomer"/>
+          <include name="deleteCustomer"/>
+        </methods>
+      </class> <!-- Com.actitime.script.TaskTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
