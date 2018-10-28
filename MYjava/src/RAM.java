@@ -1,0 +1,11 @@
+
+public class RAM {
+	
+	/*
+	 * 
+	 * 
+	 * HD
+	 */
+	
+
+}
