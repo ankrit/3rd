@@ -1,0 +1,3054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="50" passed="47">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Bangalore, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":77.6,"lat":12.98},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":295.15,"pressure":1018,"humidity":68,"temp_min":295.15,"temp_max":295.15},"visibility":6000,"wind":{"speed":3.1,"deg":70},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7821,"message":0.0063,"country":"IN","sunrise":1541465093,"sunset":1541506882},"id":1277333,"name":"Bangalore","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Delhi, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":77.22,"lat":28.65},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":292.15,"pressure":1015,"humidity":45,"temp_min":292.15,"temp_max":292.15},"visibility":3500,"wind":{"speed":2.6,"deg":270},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7809,"message":0.0047,"country":"IN","sunrise":1541466422,"sunset":1541505725},"id":1273294,"name":"Delhi","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Agra, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":78.01,"lat":27.18},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":288.15,"pressure":1015,"humidity":62,"temp_min":288.15,"temp_max":288.15},"visibility":3500,"wind":{"speed":2.97,"deg":285.5},"clouds":{"all":5},"dt":1541518200,"sys":{"type":1,"id":7800,"message":0.0067,"country":"IN","sunrise":1541466104,"sunset":1541505665},"id":1279259,"name":"Agra","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Bareilly, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":79.41,"lat":28.35},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":290.368,"pressure":1008.03,"humidity":76,"temp_min":290.368,"temp_max":290.368,"sea_level":1027.97,"grnd_level":1008.03},"wind":{"speed":3.57,"deg":283.5},"clouds":{"all":0},"dt":1541522002,"sys":{"message":0.0182,"country":"IN","sunrise":1541465870,"sunset":1541505226},"id":1277013,"name":"Bareilly","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Indore, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":75.83,"lat":22.72},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":295.15,"pressure":1017,"humidity":46,"temp_min":295.15,"temp_max":295.15},"visibility":5000,"wind":{"speed":2.1,"deg":20},"clouds":{"all":0},"dt":1541516400,"sys":{"type":1,"id":7768,"message":0.0079,"country":"IN","sunrise":1541466257,"sunset":1541506562},"id":1269743,"name":"Indore","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Mumbai, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":72.85,"lat":19.01},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":305.15,"pressure":1013,"humidity":52,"temp_min":305.15,"temp_max":305.15},"visibility":2500,"wind":{"speed":3.1,"deg":50},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7761,"message":0.0051,"country":"IN","sunrise":1541466681,"sunset":1541507570},"id":1275339,"name":"Mumbai","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Gurgaon, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":77.03,"lat":28.47},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":292.15,"pressure":1015,"humidity":45,"temp_min":292.15,"temp_max":292.15},"visibility":3500,"wind":{"speed":2.6,"deg":270},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7809,"message":0.0055,"country":"IN","sunrise":1541466452,"sunset":1541505786},"id":1270642,"name":"Gurgaon","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Noida, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":292.15,"pressure":1015,"humidity":45,"temp_min":292.15,"temp_max":292.15},"visibility":3500,"wind":{"speed":2.6,"deg":270},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7809,"message":0.0098,"country":"IN","sunrise":1541466384,"sunset":1541505701},"id":7279746,"name":"Noida","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Mysore, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":76.65,"lat":12.31},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":298.495,"pressure":942.95,"humidity":57,"temp_min":298.495,"temp_max":298.495,"sea_level":1025.94,"grnd_level":942.95},"wind":{"speed":4.29,"deg":97.5},"clouds":{"all":76},"dt":1541521715,"sys":{"message":0.0059,"country":"IN","sunrise":1541465273,"sunset":1541507159},"id":1262321,"name":"Mysore","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Satna, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":80.83,"lat":24.58},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":290.518,"pressure":990.6,"humidity":53,"temp_min":290.518,"temp_max":290.518,"sea_level":1028.46,"grnd_level":990.6},"wind":{"speed":1.42,"deg":264},"clouds":{"all":0},"dt":1541522006,"sys":{"message":0.0066,"country":"IN","sunrise":1541465208,"sunset":1541505210},"id":1257022,"name":"Satna","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Tirupati, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":79.42,"lat":13.63},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":292.093,"pressure":978.28,"humidity":91,"temp_min":292.093,"temp_max":292.093,"sea_level":1027.2,"grnd_level":978.28},"wind":{"speed":1.07,"deg":63.5001},"clouds":{"all":0},"dt":1541522006,"sys":{"message":0.0075,"country":"IN","sunrise":1541464704,"sunset":1541506398},"id":1254360,"name":"Tirupati","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Patna, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":85.12,"lat":25.61},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":294.15,"pressure":1014,"humidity":68,"temp_min":294.15,"temp_max":294.15},"visibility":2500,"wind":{"speed":1.5,"deg":250},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7796,"message":0.0168,"country":"IN","sunrise":1541464263,"sunset":1541504094},"id":1260086,"name":"Patna","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Kolkata, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":88.35,"lat":22.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":299.15,"pressure":1012,"humidity":69,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":1.59,"deg":106},"clouds":{"all":20},"dt":1541520000,"sys":{"type":1,"id":7784,"message":0.0337,"country":"IN","sunrise":1541463239,"sunset":1541503570},"id":1275004,"name":"Kolkata","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Ooty, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":76.7,"lat":11.41},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":299.15,"pressure":1015,"humidity":69,"temp_min":299.15,"temp_max":299.15},"visibility":3000,"wind":{"speed":0.87,"deg":102},"clouds":{"all":40},"dt":1541520000,"sys":{"type":1,"id":7825,"message":0.0057,"country":"IN","sunrise":1541465197,"sunset":1541507212},"id":1253993,"name":"Ooty","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Hyderabad, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":78.47,"lat":17.36},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":300.15,"pressure":1018,"humidity":74,"temp_min":300.15,"temp_max":300.15},"visibility":6000,"wind":{"speed":1.5,"deg":130},"clouds":{"all":12},"dt":1541520000,"sys":{"type":1,"id":7831,"message":0.0047,"country":"IN","sunrise":1541465207,"sunset":1541506348},"id":1269843,"name":"Hyderabad","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Lucknow, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":80.93,"lat":26.84},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":294.15,"pressure":1014,"humidity":64,"temp_min":294.15,"temp_max":294.15},"visibility":2500,"wind":{"speed":1.82,"deg":304.5},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7817,"message":0.0046,"country":"IN","sunrise":1541465374,"sunset":1541504994},"id":1264733,"name":"Lucknow","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Hisar, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":75.73,"lat":29.16},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":286.268,"pressure":1005.03,"humidity":69,"temp_min":286.268,"temp_max":286.268,"sea_level":1030.04,"grnd_level":1005.03},"wind":{"speed":1.42,"deg":298},"clouds":{"all":0},"dt":1541522011,"sys":{"message":0.0048,"country":"IN","sunrise":1541466826,"sunset":1541506036},"id":1270022,"name":"Hisar","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Ahmedabad, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":72.58,"lat":23.02},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":297.15,"pressure":1014,"humidity":44,"temp_min":297.15,"temp_max":297.15},"visibility":4000,"wind":{"speed":1.42,"deg":35.0001},"clouds":{"all":0},"dt":1541518200,"sys":{"type":1,"id":7758,"message":0.0053,"country":"IN","sunrise":1541467061,"sunset":1541507317},"id":1279233,"name":"Ahmedabad","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Bhubaneswar, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":85.84,"lat":20.26},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":300.15,"pressure":1013,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":3000,"wind":{"speed":3.22,"deg":149},"clouds":{"all":80},"dt":1541520000,"sys":{"type":1,"id":7783,"message":0.0048,"country":"IN","sunrise":1541463659,"sunset":1541504356},"id":1275817,"name":"Bhubaneswar","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Chennai, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":80.28,"lat":13.09},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":300.15,"pressure":1014,"humidity":83,"temp_min":300.15,"temp_max":300.15},"visibility":3000,"wind":{"speed":2.1,"deg":60},"clouds":{"all":20},"dt":1541520000,"sys":{"type":1,"id":7834,"message":0.0048,"country":"IN","sunrise":1541464458,"sunset":1541506231},"id":1264527,"name":"Chennai","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Texas, AU' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":151.17,"lat":-28.86},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":296.343,"pressure":974.23,"humidity":62,"temp_min":296.343,"temp_max":296.343,"sea_level":1021.33,"grnd_level":974.23},"wind":{"speed":4.57,"deg":1.50012},"clouds":{"all":24},"dt":1541522013,"sys":{"message":0.0075,"country":"AU","sunrise":1541444305,"sunset":1541492388},"id":2160132,"name":"Texas","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Chicago, US' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-87.62,"lat":41.88},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"},{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09d"},{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":280.83,"pressure":1004,"humidity":82,"temp_min":280.15,"temp_max":281.45},"visibility":16093,"wind":{"speed":9.3,"deg":250,"gust":15.4},"rain":{"1h":0.51},"clouds":{"all":90},"dt":1541519700,"sys":{"type":1,"id":961,"message":0.0066,"country":"US","sunrise":1541507394,"sunset":1541543869},"id":4887398,"name":"Chicago","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Houston, US' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-95.37,"lat":29.76},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":299.74,"pressure":1013,"humidity":74,"temp_min":298.75,"temp_max":301.15},"visibility":14484,"wind":{"speed":3.1,"deg":210},"clouds":{"all":75},"dt":1541520900,"sys":{"type":1,"id":2646,"message":0.006,"country":"US","sunrise":1541507966,"sunset":1541547026},"id":4699066,"name":"Houston","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Los Angeles, US' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-118.24,"lat":34.05},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":291.28,"pressure":1014,"humidity":67,"temp_min":288.75,"temp_max":293.75},"visibility":16093,"wind":{"speed":0.84,"deg":32},"clouds":{"all":90},"dt":1541519880,"sys":{"type":1,"id":416,"message":0.0124,"country":"US","sunrise":1541513870,"sunset":1541552097},"id":5368361,"name":"Los Angeles","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Philadelphia, US' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-75.16,"lat":39.95},"weather":[{"id":502,"main":"Rain","description":"heavy intensity rain","icon":"10d"},{"id":211,"main":"Thunderstorm","description":"thunderstorm","icon":"11d"},{"id":741,"main":"Fog","description":"fog","icon":"50d"},{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":286.93,"pressure":1010,"humidity":100,"temp_min":284.15,"temp_max":289.85},"visibility":805,"wind":{"speed":8.7,"deg":200},"rain":{"1h":2.43},"clouds":{"all":90},"dt":1541521200,"sys":{"type":1,"id":2359,"message":0.0059,"country":"US","sunrise":1541504166,"sunset":1541541117},"id":4560349,"name":"Philadelphia","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Manchester, US' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-71.45,"lat":43},"weather":[{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09d"},{"id":701,"main":"Mist","description":"mist","icon":"50d"},{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":282.08,"pressure":1014,"humidity":96,"temp_min":280.95,"temp_max":283.15},"visibility":805,"wind":{"speed":2.1,"deg":110},"clouds":{"all":90},"dt":1541520960,"sys":{"type":1,"id":1949,"message":0.006,"country":"US","sunrise":1541503653,"sunset":1541539847},"id":5089178,"name":"Manchester","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'London, GB' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":520,"main":"Rain","description":"light intensity shower rain","icon":"09d"}],"base":"stations","main":{"temp":287.24,"pressure":998,"humidity":82,"temp_min":286.15,"temp_max":288.15},"visibility":10000,"wind":{"speed":4.1,"deg":170},"clouds":{"all":68},"dt":1541519400,"sys":{"type":1,"id":5168,"message":0.008,"country":"GB","sunrise":1541487829,"sunset":1541521427},"id":2643743,"name":"London","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Edinburgh, GB' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-3.19,"lat":55.95},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":285.46,"pressure":991,"humidity":82,"temp_min":285.15,"temp_max":286.15},"visibility":10000,"wind":{"speed":4.1,"deg":90},"clouds":{"all":75},"dt":1541519400,"sys":{"type":1,"id":5122,"message":0.0058,"country":"GB","sunrise":1541489481,"sunset":1541521238},"id":2650225,"name":"Edinburgh","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Birmingham, GB' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-1.89,"lat":52.48},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":287.41,"pressure":995,"humidity":76,"temp_min":287.15,"temp_max":288.15},"visibility":10000,"wind":{"speed":6.2,"deg":150},"clouds":{"all":40},"dt":1541519400,"sys":{"type":1,"id":5055,"message":0.0068,"country":"GB","sunrise":1541488435,"sunset":1541521665},"id":2655603,"name":"Birmingham","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Glasgow, GB' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"coord":{"lon":-4.24,"lat":55.86},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":286.49,"pressure":990,"humidity":82,"temp_min":286.15,"temp_max":287.15},"visibility":10000,"wind":{"speed":4.6,"deg":110},"clouds":{"all":75},"dt":1541519400,"sys":{"type":1,"id":5121,"message":0.0056,"country":"GB","sunrise":1541489713,"sunset":1541521510},"id":2648579,"name":"Glasgow","cod":200}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the Status code successfully]]>
+    </line>
+    <line>
+      <![CDATA[Country code has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[City name has verified successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Bang City, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC1, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC2, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC3, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC4, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC5, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC6, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC7, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'ABC8, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Tirupati, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Bangalore, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Delhi, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Agra, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Bareilly, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Indore, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Mumbai, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Gurgaon, IN' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Manchester, US' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Birmingham, GB' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Case Name is: Verify 'Glasgow, GB' City Info]]>
+    </line>
+    <line>
+      <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+    </line>
+    <line>
+      <![CDATA[Verified the error message successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49593" started-at="2018-11-06T16:37:35Z" finished-at="2018-11-06T16:38:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="49593" started-at="2018-11-06T16:37:35Z" finished-at="2018-11-06T16:38:24Z">
+      <class name="APITEST.TestWeatherAPIWithDataProvide">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="951" started-at="2018-11-06T16:37:40Z" finished-at="2018-11-06T16:37:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="12320" started-at="2018-11-06T16:37:41Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Bangalore, IN' City Info, City Name=Bangalore, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Bangalore, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":77.6,"lat":12.98},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":295.15,"pressure":1018,"humidity":68,"temp_min":295.15,"temp_max":295.15},"visibility":6000,"wind":{"speed":3.1,"deg":70},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7821,"message":0.0063,"country":"IN","sunrise":1541465093,"sunset":1541506882},"id":1277333,"name":"Bangalore","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="1397" started-at="2018-11-06T16:37:53Z" finished-at="2018-11-06T16:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Bangalore, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:54Z" finished-at="2018-11-06T16:37:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="422" started-at="2018-11-06T16:37:54Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Delhi, IN' City Info, City Name=Delhi, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Delhi, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":77.22,"lat":28.65},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":292.15,"pressure":1015,"humidity":45,"temp_min":292.15,"temp_max":292.15},"visibility":3500,"wind":{"speed":2.6,"deg":270},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7809,"message":0.0047,"country":"IN","sunrise":1541466422,"sunset":1541505725},"id":1273294,"name":"Delhi","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:37:55Z" finished-at="2018-11-06T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Delhi, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:55Z" finished-at="2018-11-06T16:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="374" started-at="2018-11-06T16:37:55Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Agra, IN' City Info, City Name=Agra, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=300}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <300> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <300> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Agra, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":78.01,"lat":27.18},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":288.15,"pressure":1015,"humidity":62,"temp_min":288.15,"temp_max":288.15},"visibility":3500,"wind":{"speed":2.97,"deg":285.5},"clouds":{"all":5},"dt":1541518200,"sys":{"type":1,"id":7800,"message":0.0067,"country":"IN","sunrise":1541466104,"sunset":1541505665},"id":1279259,"name":"Agra","cod":200}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="281" started-at="2018-11-06T16:37:56Z" finished-at="2018-11-06T16:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=FAILURE method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Agra, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="390" started-at="2018-11-06T16:37:56Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Bareilly, IN' City Info, City Name=Bareilly, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=300}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <300> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <300> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Bareilly, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":79.41,"lat":28.35},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":290.368,"pressure":1008.03,"humidity":76,"temp_min":290.368,"temp_max":290.368,"sea_level":1027.97,"grnd_level":1008.03},"wind":{"speed":3.57,"deg":283.5},"clouds":{"all":0},"dt":1541522002,"sys":{"message":0.0182,"country":"IN","sunrise":1541465870,"sunset":1541505226},"id":1277013,"name":"Bareilly","cod":200}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:56Z" finished-at="2018-11-06T16:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="252" started-at="2018-11-06T16:37:56Z" finished-at="2018-11-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=FAILURE method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Bareilly, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:57Z" finished-at="2018-11-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="234" started-at="2018-11-06T16:37:57Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Indore, IN' City Info, City Name=Indore, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=300}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <300> but was <200>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <300> but was <200>.
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Indore, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":75.83,"lat":22.72},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":295.15,"pressure":1017,"humidity":46,"temp_min":295.15,"temp_max":295.15},"visibility":5000,"wind":{"speed":2.1,"deg":20},"clouds":{"all":0},"dt":1541516400,"sys":{"type":1,"id":7768,"message":0.0079,"country":"IN","sunrise":1541466257,"sunset":1541506562},"id":1269743,"name":"Indore","cod":200}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="203" started-at="2018-11-06T16:37:57Z" finished-at="2018-11-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=FAILURE method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Indore, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:57Z" finished-at="2018-11-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="485" started-at="2018-11-06T16:37:57Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Mumbai, IN' City Info, City Name=Mumbai, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Mumbai, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":72.85,"lat":19.01},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":305.15,"pressure":1013,"humidity":52,"temp_min":305.15,"temp_max":305.15},"visibility":2500,"wind":{"speed":3.1,"deg":50},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7761,"message":0.0051,"country":"IN","sunrise":1541466681,"sunset":1541507570},"id":1275339,"name":"Mumbai","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="249" started-at="2018-11-06T16:37:57Z" finished-at="2018-11-06T16:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Mumbai, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="406" started-at="2018-11-06T16:37:58Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Gurgaon, IN' City Info, City Name=Gurgaon, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Gurgaon, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":77.03,"lat":28.47},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":292.15,"pressure":1015,"humidity":45,"temp_min":292.15,"temp_max":292.15},"visibility":3500,"wind":{"speed":2.6,"deg":270},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7809,"message":0.0055,"country":"IN","sunrise":1541466452,"sunset":1541505786},"id":1270642,"name":"Gurgaon","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:58Z" finished-at="2018-11-06T16:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="218" started-at="2018-11-06T16:37:58Z" finished-at="2018-11-06T16:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Gurgaon, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:58Z" finished-at="2018-11-06T16:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="516" started-at="2018-11-06T16:37:58Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Noida, IN' City Info, City Name=Noida, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Noida, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":292.15,"pressure":1015,"humidity":45,"temp_min":292.15,"temp_max":292.15},"visibility":3500,"wind":{"speed":2.6,"deg":270},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7809,"message":0.0098,"country":"IN","sunrise":1541466384,"sunset":1541505701},"id":7279746,"name":"Noida","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="219" started-at="2018-11-06T16:37:59Z" finished-at="2018-11-06T16:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Noida, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:37:59Z" finished-at="2018-11-06T16:37:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="405" started-at="2018-11-06T16:37:59Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Mysore, IN' City Info, City Name=Mysore, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Mysore, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":76.65,"lat":12.31},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":298.495,"pressure":942.95,"humidity":57,"temp_min":298.495,"temp_max":298.495,"sea_level":1025.94,"grnd_level":942.95},"wind":{"speed":4.29,"deg":97.5},"clouds":{"all":76},"dt":1541521715,"sys":{"message":0.0059,"country":"IN","sunrise":1541465273,"sunset":1541507159},"id":1262321,"name":"Mysore","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:00Z" finished-at="2018-11-06T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Mysore, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:00Z" finished-at="2018-11-06T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="484" started-at="2018-11-06T16:38:00Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Satna, IN' City Info, City Name=Satna, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Satna, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":80.83,"lat":24.58},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":290.518,"pressure":990.6,"humidity":53,"temp_min":290.518,"temp_max":290.518,"sea_level":1028.46,"grnd_level":990.6},"wind":{"speed":1.42,"deg":264},"clouds":{"all":0},"dt":1541522006,"sys":{"message":0.0066,"country":"IN","sunrise":1541465208,"sunset":1541505210},"id":1257022,"name":"Satna","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="240" started-at="2018-11-06T16:38:00Z" finished-at="2018-11-06T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Satna, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:00Z" finished-at="2018-11-06T16:38:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="343" started-at="2018-11-06T16:38:00Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Tirupati, IN' City Info, City Name=Tirupati, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Tirupati, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":79.42,"lat":13.63},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":292.093,"pressure":978.28,"humidity":91,"temp_min":292.093,"temp_max":292.093,"sea_level":1027.2,"grnd_level":978.28},"wind":{"speed":1.07,"deg":63.5001},"clouds":{"all":0},"dt":1541522006,"sys":{"message":0.0075,"country":"IN","sunrise":1541464704,"sunset":1541506398},"id":1254360,"name":"Tirupati","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:01Z" finished-at="2018-11-06T16:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Tirupati, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="516" started-at="2018-11-06T16:38:01Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Patna, IN' City Info, City Name=Patna, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Patna, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":85.12,"lat":25.61},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":294.15,"pressure":1014,"humidity":68,"temp_min":294.15,"temp_max":294.15},"visibility":2500,"wind":{"speed":1.5,"deg":250},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7796,"message":0.0168,"country":"IN","sunrise":1541464263,"sunset":1541504094},"id":1260086,"name":"Patna","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:01Z" finished-at="2018-11-06T16:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="296" started-at="2018-11-06T16:38:02Z" finished-at="2018-11-06T16:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Patna, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:02Z" finished-at="2018-11-06T16:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="406" started-at="2018-11-06T16:38:02Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Kolkata, IN' City Info, City Name=Kolkata, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Kolkata, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":88.35,"lat":22.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":299.15,"pressure":1012,"humidity":69,"temp_min":299.15,"temp_max":299.15},"visibility":2500,"wind":{"speed":1.59,"deg":106},"clouds":{"all":20},"dt":1541520000,"sys":{"type":1,"id":7784,"message":0.0337,"country":"IN","sunrise":1541463239,"sunset":1541503570},"id":1275004,"name":"Kolkata","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:02Z" finished-at="2018-11-06T16:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Kolkata, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:03Z" finished-at="2018-11-06T16:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="344" started-at="2018-11-06T16:38:03Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Ooty, IN' City Info, City Name=Ooty, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Ooty, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":76.7,"lat":11.41},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":299.15,"pressure":1015,"humidity":69,"temp_min":299.15,"temp_max":299.15},"visibility":3000,"wind":{"speed":0.87,"deg":102},"clouds":{"all":40},"dt":1541520000,"sys":{"type":1,"id":7825,"message":0.0057,"country":"IN","sunrise":1541465197,"sunset":1541507212},"id":1253993,"name":"Ooty","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:03Z" finished-at="2018-11-06T16:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Ooty, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="515" started-at="2018-11-06T16:38:03Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Hyderabad, IN' City Info, City Name=Hyderabad, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Hyderabad, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":78.47,"lat":17.36},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":300.15,"pressure":1018,"humidity":74,"temp_min":300.15,"temp_max":300.15},"visibility":6000,"wind":{"speed":1.5,"deg":130},"clouds":{"all":12},"dt":1541520000,"sys":{"type":1,"id":7831,"message":0.0047,"country":"IN","sunrise":1541465207,"sunset":1541506348},"id":1269843,"name":"Hyderabad","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:03Z" finished-at="2018-11-06T16:38:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="281" started-at="2018-11-06T16:38:04Z" finished-at="2018-11-06T16:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Hyderabad, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:04Z" finished-at="2018-11-06T16:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="391" started-at="2018-11-06T16:38:04Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Lucknow, IN' City Info, City Name=Lucknow, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Lucknow, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":80.93,"lat":26.84},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":294.15,"pressure":1014,"humidity":64,"temp_min":294.15,"temp_max":294.15},"visibility":2500,"wind":{"speed":1.82,"deg":304.5},"clouds":{"all":0},"dt":1541520000,"sys":{"type":1,"id":7817,"message":0.0046,"country":"IN","sunrise":1541465374,"sunset":1541504994},"id":1264733,"name":"Lucknow","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="390" started-at="2018-11-06T16:38:04Z" finished-at="2018-11-06T16:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Lucknow, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="328" started-at="2018-11-06T16:38:05Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Hisar, IN' City Info, City Name=Hisar, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Hisar, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":75.73,"lat":29.16},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":286.268,"pressure":1005.03,"humidity":69,"temp_min":286.268,"temp_max":286.268,"sea_level":1030.04,"grnd_level":1005.03},"wind":{"speed":1.42,"deg":298},"clouds":{"all":0},"dt":1541522011,"sys":{"message":0.0048,"country":"IN","sunrise":1541466826,"sunset":1541506036},"id":1270022,"name":"Hisar","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:05Z" finished-at="2018-11-06T16:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="249" started-at="2018-11-06T16:38:05Z" finished-at="2018-11-06T16:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Hisar, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:05Z" finished-at="2018-11-06T16:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="485" started-at="2018-11-06T16:38:05Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Ahmedabad, IN' City Info, City Name=Ahmedabad, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Ahmedabad, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":72.58,"lat":23.02},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50n"}],"base":"stations","main":{"temp":297.15,"pressure":1014,"humidity":44,"temp_min":297.15,"temp_max":297.15},"visibility":4000,"wind":{"speed":1.42,"deg":35.0001},"clouds":{"all":0},"dt":1541518200,"sys":{"type":1,"id":7758,"message":0.0053,"country":"IN","sunrise":1541467061,"sunset":1541507317},"id":1279233,"name":"Ahmedabad","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="187" started-at="2018-11-06T16:38:06Z" finished-at="2018-11-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Ahmedabad, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:06Z" finished-at="2018-11-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="312" started-at="2018-11-06T16:38:06Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Bhubaneswar, IN' City Info, City Name=Bhubaneswar, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Bhubaneswar, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":85.84,"lat":20.26},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":300.15,"pressure":1013,"humidity":88,"temp_min":300.15,"temp_max":300.15},"visibility":3000,"wind":{"speed":3.22,"deg":149},"clouds":{"all":80},"dt":1541520000,"sys":{"type":1,"id":7783,"message":0.0048,"country":"IN","sunrise":1541463659,"sunset":1541504356},"id":1275817,"name":"Bhubaneswar","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="172" started-at="2018-11-06T16:38:06Z" finished-at="2018-11-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Bhubaneswar, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:06Z" finished-at="2018-11-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="306" started-at="2018-11-06T16:38:06Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Chennai, IN' City Info, City Name=Chennai, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Chennai, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":80.28,"lat":13.09},"weather":[{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":300.15,"pressure":1014,"humidity":83,"temp_min":300.15,"temp_max":300.15},"visibility":3000,"wind":{"speed":2.1,"deg":60},"clouds":{"all":20},"dt":1541520000,"sys":{"type":1,"id":7834,"message":0.0048,"country":"IN","sunrise":1541464458,"sunset":1541506231},"id":1264527,"name":"Chennai","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="174" started-at="2018-11-06T16:38:07Z" finished-at="2018-11-06T16:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Chennai, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-11-06T16:38:07Z" finished-at="2018-11-06T16:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="328" started-at="2018-11-06T16:38:07Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Texas, AU' City Info, City Name=Texas, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=AU, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Texas, AU' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":151.17,"lat":-28.86},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":296.343,"pressure":974.23,"humidity":62,"temp_min":296.343,"temp_max":296.343,"sea_level":1021.33,"grnd_level":974.23},"wind":{"speed":4.57,"deg":1.50012},"clouds":{"all":24},"dt":1541522013,"sys":{"message":0.0075,"country":"AU","sunrise":1541444305,"sunset":1541492388},"id":2160132,"name":"Texas","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="218" started-at="2018-11-06T16:38:07Z" finished-at="2018-11-06T16:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Texas, AU' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="453" started-at="2018-11-06T16:38:07Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Chicago, US' City Info, City Name=Chicago, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Chicago, US' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-87.62,"lat":41.88},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"},{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09d"},{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":280.83,"pressure":1004,"humidity":82,"temp_min":280.15,"temp_max":281.45},"visibility":16093,"wind":{"speed":9.3,"deg":250,"gust":15.4},"rain":{"1h":0.51},"clouds":{"all":90},"dt":1541519700,"sys":{"type":1,"id":961,"message":0.0066,"country":"US","sunrise":1541507394,"sunset":1541543869},"id":4887398,"name":"Chicago","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:07Z" finished-at="2018-11-06T16:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="250" started-at="2018-11-06T16:38:08Z" finished-at="2018-11-06T16:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Chicago, US' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="390" started-at="2018-11-06T16:38:08Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Houston, US' City Info, City Name=Houston, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Houston, US' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-95.37,"lat":29.76},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":299.74,"pressure":1013,"humidity":74,"temp_min":298.75,"temp_max":301.15},"visibility":14484,"wind":{"speed":3.1,"deg":210},"clouds":{"all":75},"dt":1541520900,"sys":{"type":1,"id":2646,"message":0.006,"country":"US","sunrise":1541507966,"sunset":1541547026},"id":4699066,"name":"Houston","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:08Z" finished-at="2018-11-06T16:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="265" started-at="2018-11-06T16:38:09Z" finished-at="2018-11-06T16:38:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Houston, US' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="532" started-at="2018-11-06T16:38:09Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Los Angeles, US' City Info, City Name=Los Angeles, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Los Angeles, US' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-118.24,"lat":34.05},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":291.28,"pressure":1014,"humidity":67,"temp_min":288.75,"temp_max":293.75},"visibility":16093,"wind":{"speed":0.84,"deg":32},"clouds":{"all":90},"dt":1541519880,"sys":{"type":1,"id":416,"message":0.0124,"country":"US","sunrise":1541513870,"sunset":1541552097},"id":5368361,"name":"Los Angeles","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:09Z" finished-at="2018-11-06T16:38:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="218" started-at="2018-11-06T16:38:09Z" finished-at="2018-11-06T16:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Los Angeles, US' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:10Z" finished-at="2018-11-06T16:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="499" started-at="2018-11-06T16:38:10Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Philadelphia, US' City Info, City Name=Philadelphia, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Philadelphia, US' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-75.16,"lat":39.95},"weather":[{"id":502,"main":"Rain","description":"heavy intensity rain","icon":"10d"},{"id":211,"main":"Thunderstorm","description":"thunderstorm","icon":"11d"},{"id":741,"main":"Fog","description":"fog","icon":"50d"},{"id":701,"main":"Mist","description":"mist","icon":"50d"}],"base":"stations","main":{"temp":286.93,"pressure":1010,"humidity":100,"temp_min":284.15,"temp_max":289.85},"visibility":805,"wind":{"speed":8.7,"deg":200},"rain":{"1h":2.43},"clouds":{"all":90},"dt":1541521200,"sys":{"type":1,"id":2359,"message":0.0059,"country":"US","sunrise":1541504166,"sunset":1541541117},"id":4560349,"name":"Philadelphia","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:10Z" finished-at="2018-11-06T16:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Philadelphia, US' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="391" started-at="2018-11-06T16:38:10Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Manchester, US' City Info, City Name=Manchester, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Manchester, US' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-71.45,"lat":43},"weather":[{"id":300,"main":"Drizzle","description":"light intensity drizzle","icon":"09d"},{"id":701,"main":"Mist","description":"mist","icon":"50d"},{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":282.08,"pressure":1014,"humidity":96,"temp_min":280.95,"temp_max":283.15},"visibility":805,"wind":{"speed":2.1,"deg":110},"clouds":{"all":90},"dt":1541520960,"sys":{"type":1,"id":1949,"message":0.006,"country":"US","sunrise":1541503653,"sunset":1541539847},"id":5089178,"name":"Manchester","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:10Z" finished-at="2018-11-06T16:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:11Z" finished-at="2018-11-06T16:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Manchester, US' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="452" started-at="2018-11-06T16:38:11Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'London, GB' City Info, City Name=London, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'London, GB' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":520,"main":"Rain","description":"light intensity shower rain","icon":"09d"}],"base":"stations","main":{"temp":287.24,"pressure":998,"humidity":82,"temp_min":286.15,"temp_max":288.15},"visibility":10000,"wind":{"speed":4.1,"deg":170},"clouds":{"all":68},"dt":1541519400,"sys":{"type":1,"id":5168,"message":0.008,"country":"GB","sunrise":1541487829,"sunset":1541521427},"id":2643743,"name":"London","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:11Z" finished-at="2018-11-06T16:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="218" started-at="2018-11-06T16:38:11Z" finished-at="2018-11-06T16:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'London, GB' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="346" started-at="2018-11-06T16:38:12Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Edinburgh, GB' City Info, City Name=Edinburgh, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Edinburgh, GB' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-3.19,"lat":55.95},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":285.46,"pressure":991,"humidity":82,"temp_min":285.15,"temp_max":286.15},"visibility":10000,"wind":{"speed":4.1,"deg":90},"clouds":{"all":75},"dt":1541519400,"sys":{"type":1,"id":5122,"message":0.0058,"country":"GB","sunrise":1541489481,"sunset":1541521238},"id":2650225,"name":"Edinburgh","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:12Z" finished-at="2018-11-06T16:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="245" started-at="2018-11-06T16:38:12Z" finished-at="2018-11-06T16:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Edinburgh, GB' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:12Z" finished-at="2018-11-06T16:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="344" started-at="2018-11-06T16:38:12Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Birmingham, GB' City Info, City Name=Birmingham, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Birmingham, GB' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-1.89,"lat":52.48},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":287.41,"pressure":995,"humidity":76,"temp_min":287.15,"temp_max":288.15},"visibility":10000,"wind":{"speed":6.2,"deg":150},"clouds":{"all":40},"dt":1541519400,"sys":{"type":1,"id":5055,"message":0.0068,"country":"GB","sunrise":1541488435,"sunset":1541521665},"id":2655603,"name":"Birmingham","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:13Z" finished-at="2018-11-06T16:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Birmingham, GB' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithPositiveData" duration-ms="422" started-at="2018-11-06T16:38:13Z" data-provider="PositiveTestScenarios" finished-at="2018-11-06T16:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Glasgow, GB' City Info, City Name=Glasgow, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Glasgow, GB' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"coord":{"lon":-4.24,"lat":55.86},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":286.49,"pressure":990,"humidity":82,"temp_min":286.15,"temp_max":287.15},"visibility":10000,"wind":{"speed":4.6,"deg":110},"clouds":{"all":75},"dt":1541519400,"sys":{"type":1,"id":5121,"message":0.0056,"country":"GB","sunrise":1541489713,"sunset":1541521510},"id":2648579,"name":"Glasgow","cod":200}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the Status code successfully]]>
+            </line>
+            <line>
+              <![CDATA[Country code has verified successfully]]>
+            </line>
+            <line>
+              <![CDATA[City name has verified successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithPositiveData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:13Z" finished-at="2018-11-06T16:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="203" started-at="2018-11-06T16:38:13Z" finished-at="2018-11-06T16:38:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithPositiveData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(java.util.Map)[pri:-1, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Glasgow, GB' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="421" started-at="2018-11-06T16:38:14Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Bang City, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=Bang City, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Bang City, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:14Z" finished-at="2018-11-06T16:38:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="203" started-at="2018-11-06T16:38:14Z" finished-at="2018-11-06T16:38:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Bang City, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:14Z" finished-at="2018-11-06T16:38:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="266" started-at="2018-11-06T16:38:14Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC1, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC1, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC1, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="203" started-at="2018-11-06T16:38:15Z" finished-at="2018-11-06T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC1, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:15Z" finished-at="2018-11-06T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="249" started-at="2018-11-06T16:38:15Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC2, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC2, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC2, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="172" started-at="2018-11-06T16:38:15Z" finished-at="2018-11-06T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC2, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:15Z" finished-at="2018-11-06T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="218" started-at="2018-11-06T16:38:15Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC3, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC3, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC3, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="218" started-at="2018-11-06T16:38:15Z" finished-at="2018-11-06T16:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC3, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="251" started-at="2018-11-06T16:38:16Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC4, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC4, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC4, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:16Z" finished-at="2018-11-06T16:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:16Z" finished-at="2018-11-06T16:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC4, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2018-11-06T16:38:16Z" finished-at="2018-11-06T16:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="250" started-at="2018-11-06T16:38:16Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC5, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC5, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC5, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="218" started-at="2018-11-06T16:38:16Z" finished-at="2018-11-06T16:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC5, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-11-06T16:38:17Z" finished-at="2018-11-06T16:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="234" started-at="2018-11-06T16:38:17Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC6, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC6, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC6, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="252" started-at="2018-11-06T16:38:17Z" finished-at="2018-11-06T16:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC6, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:17Z" finished-at="2018-11-06T16:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="437" started-at="2018-11-06T16:38:17Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC7, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC7, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC7, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="250" started-at="2018-11-06T16:38:18Z" finished-at="2018-11-06T16:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC7, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:18Z" finished-at="2018-11-06T16:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="250" started-at="2018-11-06T16:38:18Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'ABC8, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC8, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'ABC8, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":"404","message":"city not found"}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:18Z" finished-at="2018-11-06T16:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'ABC8, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="265" started-at="2018-11-06T16:38:18Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Tirupati, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Tirupati, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Tirupati, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:18Z" finished-at="2018-11-06T16:38:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:19Z" finished-at="2018-11-06T16:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Tirupati, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-11-06T16:38:19Z" finished-at="2018-11-06T16:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="243" started-at="2018-11-06T16:38:19Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Bangalore, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Bangalore, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Bangalore, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:19Z" finished-at="2018-11-06T16:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Bangalore, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:19Z" finished-at="2018-11-06T16:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="234" started-at="2018-11-06T16:38:19Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Delhi, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Delhi, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Delhi, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="265" started-at="2018-11-06T16:38:20Z" finished-at="2018-11-06T16:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Delhi, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="281" started-at="2018-11-06T16:38:20Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Agra, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Agra, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Agra, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:20Z" finished-at="2018-11-06T16:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="271" started-at="2018-11-06T16:38:20Z" finished-at="2018-11-06T16:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Agra, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:20Z" finished-at="2018-11-06T16:38:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="343" started-at="2018-11-06T16:38:20Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Bareilly, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Bareilly, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Bareilly, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="250" started-at="2018-11-06T16:38:21Z" finished-at="2018-11-06T16:38:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Bareilly, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:21Z" finished-at="2018-11-06T16:38:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="406" started-at="2018-11-06T16:38:21Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Indore, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Indore, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Indore, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="250" started-at="2018-11-06T16:38:21Z" finished-at="2018-11-06T16:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Indore, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:22Z" finished-at="2018-11-06T16:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="359" started-at="2018-11-06T16:38:22Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Mumbai, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Mumbai, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Mumbai, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="234" started-at="2018-11-06T16:38:22Z" finished-at="2018-11-06T16:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Mumbai, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:22Z" finished-at="2018-11-06T16:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="250" started-at="2018-11-06T16:38:22Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Gurgaon, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Gurgaon, Country Code=IN}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Gurgaon, IN' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="312" started-at="2018-11-06T16:38:22Z" finished-at="2018-11-06T16:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Gurgaon, IN' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="250" started-at="2018-11-06T16:38:23Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Manchester, US' City Info, Error Message=Invalid API key, App ID=69afcef0f16365a6c3b0cba4400, Status Code=401, City Name=Manchester, Country Code=US}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Manchester, US' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:23Z" finished-at="2018-11-06T16:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="249" started-at="2018-11-06T16:38:23Z" finished-at="2018-11-06T16:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Manchester, US' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="234" started-at="2018-11-06T16:38:23Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Birmingham, GB' City Info, Error Message=Invalid API key, App ID=69afcef0f16365a6c3b0cba4400, Status Code=401, City Name=Birmingham, Country Code=GB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Birmingham, GB' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:23Z" finished-at="2018-11-06T16:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="219" started-at="2018-11-06T16:38:24Z" finished-at="2018-11-06T16:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Birmingham, GB' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="verifyWeatherInfoWithNegativeData" duration-ms="218" started-at="2018-11-06T16:38:24Z" data-provider="NegativeTestScenarios" finished-at="2018-11-06T16:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=Verify 'Glasgow, GB' City Info, Error Message=Invalid API key, App ID=69afcef0f16365a6c3b0cba4400, Status Code=401, City Name=Glasgow, Country Code=GB}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Case Name is: Verify 'Glasgow, GB' City Info]]>
+            </line>
+            <line>
+              <![CDATA[Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}]]>
+            </line>
+            <line>
+              <![CDATA[Verified the error message successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWeatherInfoWithNegativeData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-06T16:38:24Z" finished-at="2018-11-06T16:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56]" name="afterMethod" is-config="true" duration-ms="187" started-at="2018-11-06T16:38:24Z" finished-at="2018-11-06T16:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyWeatherInfoWithNegativeData status=SUCCESS method=TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData(java.util.Map)[pri:0, instance:APITEST.TestWeatherAPIWithDataProvide@67ae56] output=Test Case Name is: Verify 'Glasgow, GB' City Info]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- APITEST.TestWeatherAPIWithDataProvide -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

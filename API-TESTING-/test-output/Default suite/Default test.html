@@ -1,0 +1,1151 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>47/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 19 12:05:59 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25760 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Agra, IN' City Info, City Name=Agra, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=300}<br/>
+<a href="#Output-1788698111" onClick='toggleBox("Output-1788698111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1788698111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1788698111">
+Test Case Name is: Verify 'Agra, IN' City Info<br/>
+Response is: {"coord":{"lon":78.01,"lat":27.18},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"02d"}],"base":"stations","main":{"temp":305.15,"pressure":1013,"humidity":33,"temp_min":305.15,"temp_max":305.15},"visibility":6000,"wind":{"speed":2.6,"deg":300},"clouds":{"all":5},"dt":1539927000,"sys":{"type":1,"id":7800,"message":0.0126,"country":"IN","sunrise":1539910193,"sunset":1539951333},"id":1279259,"name":"Agra","cod":200}<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;300&gt; but was &lt;200&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1788698111", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1788698111'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;300&gt; but was &lt;200&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Bareilly, IN' City Info, City Name=Bareilly, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=300}<br/>
+<a href="#Output-2086945474" onClick='toggleBox("Output-2086945474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2086945474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2086945474">
+Test Case Name is: Verify 'Bareilly, IN' City Info<br/>
+Response is: {"coord":{"lon":79.41,"lat":28.35},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":302.601,"pressure":1006.28,"humidity":65,"temp_min":302.601,"temp_max":302.601,"sea_level":1025.58,"grnd_level":1006.28},"wind":{"speed":2.07,"deg":41.5088},"clouds":{"all":0},"dt":1539930717,"sys":{"message":0.0044,"country":"IN","sunrise":1539909918,"sunset":1539950935},"id":1277013,"name":"Bareilly","cod":200}<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;300&gt; but was &lt;200&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2086945474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2086945474'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;300&gt; but was &lt;200&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Indore, IN' City Info, City Name=Indore, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=300}<br/>
+<a href="#Output-318288344" onClick='toggleBox("Output-318288344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-318288344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-318288344">
+Test Case Name is: Verify 'Indore, IN' City Info<br/>
+Response is: {"coord":{"lon":75.83,"lat":22.72},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":303.15,"pressure":1017,"humidity":37,"temp_min":303.15,"temp_max":303.15},"visibility":5000,"wind":{"speed":2.1,"deg":340},"clouds":{"all":0},"dt":1539925200,"sys":{"type":1,"id":7768,"message":0.0082,"country":"IN","sunrise":1539910494,"sunset":1539952081},"id":1269743,"name":"Indore","cod":200}<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;300&gt; but was &lt;200&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace318288344", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace318288344'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;300&gt; but was &lt;200&gt;.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:482)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:654)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:124)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:132)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData(TestWeatherAPIWithDataProvide.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Bang City, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=Bang City, Country Code=IN}<br/>
+<a href="#Output-589610983" onClick='toggleBox("Output-589610983", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589610983" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589610983">
+Test Case Name is: Verify 'Bang City, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC1, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC1, Country Code=IN}<br/>
+<a href="#Output-2124978601" onClick='toggleBox("Output-2124978601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2124978601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2124978601">
+Test Case Name is: Verify 'ABC1, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC2, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC2, Country Code=IN}<br/>
+<a href="#Output-157971930" onClick='toggleBox("Output-157971930", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-157971930" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-157971930">
+Test Case Name is: Verify 'ABC2, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC3, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC3, Country Code=IN}<br/>
+<a href="#Output-1031479068" onClick='toggleBox("Output-1031479068", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1031479068" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1031479068">
+Test Case Name is: Verify 'ABC3, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC4, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC4, Country Code=IN}<br/>
+<a href="#Output-1817662245" onClick='toggleBox("Output-1817662245", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1817662245" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1817662245">
+Test Case Name is: Verify 'ABC4, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC5, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC5, Country Code=IN}<br/>
+<a href="#Output-967643830" onClick='toggleBox("Output-967643830", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-967643830" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-967643830">
+Test Case Name is: Verify 'ABC5, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC6, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC6, Country Code=IN}<br/>
+<a href="#Output-631621595" onClick='toggleBox("Output-631621595", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-631621595" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-631621595">
+Test Case Name is: Verify 'ABC6, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC7, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC7, Country Code=IN}<br/>
+<a href="#Output-1139851985" onClick='toggleBox("Output-1139851985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1139851985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1139851985">
+Test Case Name is: Verify 'ABC7, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'ABC8, IN' City Info, Error Message=city not found, App ID=17e5c69afcef0f16365a6c3b0cba4400, Status Code=404, City Name=ABC8, Country Code=IN}<br/>
+<a href="#Output-1845297077" onClick='toggleBox("Output-1845297077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1845297077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1845297077">
+Test Case Name is: Verify 'ABC8, IN' City Info<br/>
+Response is: {"cod":"404","message":"city not found"}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Tirupati, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Tirupati, Country Code=IN}<br/>
+<a href="#Output-1479800269" onClick='toggleBox("Output-1479800269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479800269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479800269">
+Test Case Name is: Verify 'Tirupati, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Bangalore, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Bangalore, Country Code=IN}<br/>
+<a href="#Output-1257090913" onClick='toggleBox("Output-1257090913", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1257090913" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1257090913">
+Test Case Name is: Verify 'Bangalore, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Delhi, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Delhi, Country Code=IN}<br/>
+<a href="#Output-182052414" onClick='toggleBox("Output-182052414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-182052414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-182052414">
+Test Case Name is: Verify 'Delhi, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Agra, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0f16365a6c, Status Code=401, City Name=Agra, Country Code=IN}<br/>
+<a href="#Output-1605128733" onClick='toggleBox("Output-1605128733", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1605128733" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1605128733">
+Test Case Name is: Verify 'Agra, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Bareilly, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Bareilly, Country Code=IN}<br/>
+<a href="#Output-102709691" onClick='toggleBox("Output-102709691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-102709691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-102709691">
+Test Case Name is: Verify 'Bareilly, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Indore, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Indore, Country Code=IN}<br/>
+<a href="#Output-693417450" onClick='toggleBox("Output-693417450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-693417450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-693417450">
+Test Case Name is: Verify 'Indore, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Mumbai, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Mumbai, Country Code=IN}<br/>
+<a href="#Output-666040998" onClick='toggleBox("Output-666040998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-666040998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-666040998">
+Test Case Name is: Verify 'Mumbai, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Gurgaon, IN' City Info, Error Message=Invalid API key, App ID=17e5c69afcef0fb0cba4400, Status Code=401, City Name=Gurgaon, Country Code=IN}<br/>
+<a href="#Output-1737796619" onClick='toggleBox("Output-1737796619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1737796619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1737796619">
+Test Case Name is: Verify 'Gurgaon, IN' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Manchester, US' City Info, Error Message=Invalid API key, App ID=69afcef0f16365a6c3b0cba4400, Status Code=401, City Name=Manchester, Country Code=US}<br/>
+<a href="#Output-1994249754" onClick='toggleBox("Output-1994249754", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1994249754" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1994249754">
+Test Case Name is: Verify 'Manchester, US' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Birmingham, GB' City Info, Error Message=Invalid API key, App ID=69afcef0f16365a6c3b0cba4400, Status Code=401, City Name=Birmingham, Country Code=GB}<br/>
+<a href="#Output-1724091985" onClick='toggleBox("Output-1724091985", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1724091985" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1724091985">
+Test Case Name is: Verify 'Birmingham, GB' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithNegativeData()'><b>verifyWeatherInfoWithNegativeData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Glasgow, GB' City Info, Error Message=Invalid API key, App ID=69afcef0f16365a6c3b0cba4400, Status Code=401, City Name=Glasgow, Country Code=GB}<br/>
+<a href="#Output-705062537" onClick='toggleBox("Output-705062537", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-705062537" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-705062537">
+Test Case Name is: Verify 'Glasgow, GB' City Info<br/>
+Response is: {"cod":401, "message": "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."}<br/>
+Verified the error message successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Bangalore, IN' City Info, City Name=Bangalore, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-608817143" onClick='toggleBox("Output-608817143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-608817143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-608817143">
+Test Case Name is: Verify 'Bangalore, IN' City Info<br/>
+Response is: {"coord":{"lon":77.6,"lat":12.98},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":299.62,"pressure":1017,"humidity":61,"temp_min":299.15,"temp_max":300.15},"visibility":8000,"wind":{"speed":3.6,"deg":90},"clouds":{"all":75},"dt":1539928800,"sys":{"type":1,"id":7823,"message":0.0048,"country":"IN","sunrise":1539909625,"sunset":1539952109},"id":1277333,"name":"Bangalore","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Delhi, IN' City Info, City Name=Delhi, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-352083264" onClick='toggleBox("Output-352083264", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-352083264" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-352083264">
+Test Case Name is: Verify 'Delhi, IN' City Info<br/>
+Response is: {"coord":{"lon":77.22,"lat":28.65},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":300.9,"pressure":1013,"humidity":48,"temp_min":300.15,"temp_max":302.15},"visibility":1600,"wind":{"speed":2.1,"deg":70},"clouds":{"all":0},"dt":1539928800,"sys":{"type":1,"id":7809,"message":0.0054,"country":"IN","sunrise":1539910459,"sunset":1539951444},"id":1273294,"name":"Delhi","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Mumbai, IN' City Info, City Name=Mumbai, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-862152124" onClick='toggleBox("Output-862152124", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-862152124" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-862152124">
+Test Case Name is: Verify 'Mumbai, IN' City Info<br/>
+Response is: {"coord":{"lon":72.85,"lat":19.01},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.65,"pressure":1012,"humidity":59,"temp_min":305.15,"temp_max":306.15},"visibility":3000,"wind":{"speed":3.6,"deg":40},"clouds":{"all":0},"dt":1539928800,"sys":{"type":1,"id":7761,"message":0.0059,"country":"IN","sunrise":1539911035,"sunset":1539952974},"id":1275339,"name":"Mumbai","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Gurgaon, IN' City Info, City Name=Gurgaon, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-537483956" onClick='toggleBox("Output-537483956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-537483956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-537483956">
+Test Case Name is: Verify 'Gurgaon, IN' City Info<br/>
+Response is: {"coord":{"lon":77.03,"lat":28.47},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":300.85,"pressure":1013,"humidity":48,"temp_min":300.15,"temp_max":302.15},"visibility":1600,"wind":{"speed":2.1,"deg":70},"clouds":{"all":0},"dt":1539928800,"sys":{"type":1,"id":7809,"message":0.0053,"country":"IN","sunrise":1539910495,"sunset":1539951499},"id":1270642,"name":"Gurgaon","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Noida, IN' City Info, City Name=Noida, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-1498705150" onClick='toggleBox("Output-1498705150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1498705150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1498705150">
+Test Case Name is: Verify 'Noida, IN' City Info<br/>
+Response is: {"coord":{"lon":77.35,"lat":28.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":300.9,"pressure":1013,"humidity":48,"temp_min":300.15,"temp_max":302.15},"visibility":1600,"wind":{"speed":2.1,"deg":70},"clouds":{"all":0},"dt":1539928800,"sys":{"type":1,"id":7809,"message":0.0053,"country":"IN","sunrise":1539910424,"sunset":1539951417},"id":7279746,"name":"Noida","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Mysore, IN' City Info, City Name=Mysore, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-103394942" onClick='toggleBox("Output-103394942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-103394942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-103394942">
+Test Case Name is: Verify 'Mysore, IN' City Info<br/>
+Response is: {"coord":{"lon":76.65,"lat":12.31},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"02d"}],"base":"stations","main":{"temp":299.276,"pressure":942.56,"humidity":85,"temp_min":299.276,"temp_max":299.276,"sea_level":1025.38,"grnd_level":942.56},"wind":{"speed":3.02,"deg":100.509},"clouds":{"all":8},"dt":1539930438,"sys":{"message":0.0061,"country":"IN","sunrise":1539909824,"sunset":1539952367},"id":1262321,"name":"Mysore","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Satna, IN' City Info, City Name=Satna, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-1318080469" onClick='toggleBox("Output-1318080469", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1318080469" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1318080469">
+Test Case Name is: Verify 'Satna, IN' City Info<br/>
+Response is: {"coord":{"lon":80.83,"lat":24.58},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":306.401,"pressure":988.28,"humidity":44,"temp_min":306.401,"temp_max":306.401,"sea_level":1025.42,"grnd_level":988.28},"wind":{"speed":1.82,"deg":240.009},"clouds":{"all":0},"dt":1539930479,"sys":{"message":0.0049,"country":"IN","sunrise":1539909385,"sunset":1539950790},"id":1257022,"name":"Satna","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Tirupati, IN' City Info, City Name=Tirupati, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-499310212" onClick='toggleBox("Output-499310212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-499310212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-499310212">
+Test Case Name is: Verify 'Tirupati, IN' City Info<br/>
+Response is: {"coord":{"lon":79.42,"lat":13.63},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":301.401,"pressure":977.26,"humidity":74,"temp_min":301.401,"temp_max":301.401,"sea_level":1025.7,"grnd_level":977.26},"wind":{"speed":1.62,"deg":43.5088},"clouds":{"all":12},"dt":1539930720,"sys":{"message":0.0053,"country":"IN","sunrise":1539909216,"sunset":1539951644},"id":1254360,"name":"Tirupati","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Patna, IN' City Info, City Name=Patna, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-1866403758" onClick='toggleBox("Output-1866403758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1866403758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1866403758">
+Test Case Name is: Verify 'Patna, IN' City Info<br/>
+Response is: {"coord":{"lon":85.12,"lat":25.61},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1011,"humidity":55,"temp_min":305.15,"temp_max":305.15},"visibility":4000,"wind":{"speed":2.6,"deg":200},"clouds":{"all":0},"dt":1539928800,"sys":{"type":1,"id":7796,"message":0.0054,"country":"IN","sunrise":1539908406,"sunset":1539949709},"id":1260086,"name":"Patna","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Kolkata, IN' City Info, City Name=Kolkata, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-275150920" onClick='toggleBox("Output-275150920", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-275150920" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-275150920">
+Test Case Name is: Verify 'Kolkata, IN' City Info<br/>
+Response is: {"coord":{"lon":88.35,"lat":22.57},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":306.15,"pressure":1011,"humidity":66,"temp_min":306.15,"temp_max":306.15},"visibility":3200,"wind":{"speed":2.02,"deg":265.509},"clouds":{"all":40},"dt":1539928800,"sys":{"type":1,"id":7784,"message":0.0044,"country":"IN","sunrise":1539907481,"sunset":1539949086},"id":1275004,"name":"Kolkata","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Ooty, IN' City Info, City Name=Ooty, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-1860754643" onClick='toggleBox("Output-1860754643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1860754643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1860754643">
+Test Case Name is: Verify 'Ooty, IN' City Info<br/>
+Response is: {"coord":{"lon":76.7,"lat":11.41},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],"base":"stations","main":{"temp":302.15,"pressure":1015,"humidity":62,"temp_min":302.15,"temp_max":302.15},"visibility":6000,"wind":{"speed":2.6,"deg":70},"clouds":{"all":20},"dt":1539928800,"sys":{"type":1,"id":7825,"message":0.0046,"country":"IN","sunrise":1539909772,"sunset":1539952395},"id":1253993,"name":"Ooty","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Hyderabad, IN' City Info, City Name=Hyderabad, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-1403815002" onClick='toggleBox("Output-1403815002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1403815002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1403815002">
+Test Case Name is: Verify 'Hyderabad, IN' City Info<br/>
+Response is: {"coord":{"lon":78.47,"lat":17.36},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":304.15,"pressure":1017,"humidity":43,"temp_min":304.15,"temp_max":304.15},"visibility":5000,"wind":{"speed":2.6,"deg":120},"clouds":{"all":8},"dt":1539928800,"sys":{"type":1,"id":7831,"message":0.0053,"country":"IN","sunrise":1539909610,"sunset":1539951703},"id":1269843,"name":"Hyderabad","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Lucknow, IN' City Info, City Name=Lucknow, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-1652393238" onClick='toggleBox("Output-1652393238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1652393238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1652393238">
+Test Case Name is: Verify 'Lucknow, IN' City Info<br/>
+Response is: {"coord":{"lon":80.93,"lat":26.84},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":307.15,"pressure":1012,"humidity":46,"temp_min":307.15,"temp_max":307.15},"visibility":3000,"wind":{"speed":1.5,"deg":110},"clouds":{"all":0},"dt":1539927000,"sys":{"type":1,"id":7817,"message":0.0046,"country":"IN","sunrise":1539909474,"sunset":1539950650},"id":1264733,"name":"Lucknow","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Hisar, IN' City Info, City Name=Hisar, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-910101408" onClick='toggleBox("Output-910101408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-910101408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-910101408">
+Test Case Name is: Verify 'Hisar, IN' City Info<br/>
+Response is: {"coord":{"lon":75.73,"lat":29.16},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":301.451,"pressure":1002.79,"humidity":61,"temp_min":301.451,"temp_max":301.451,"sea_level":1026.76,"grnd_level":1002.79},"wind":{"speed":2.67,"deg":57.0088},"clouds":{"all":0},"dt":1539930563,"sys":{"message":0.0046,"country":"IN","sunrise":1539910844,"sunset":1539951774},"id":1270022,"name":"Hisar","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Ahmedabad, IN' City Info, City Name=Ahmedabad, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-2082673402" onClick='toggleBox("Output-2082673402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2082673402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2082673402">
+Test Case Name is: Verify 'Ahmedabad, IN' City Info<br/>
+Response is: {"coord":{"lon":72.58,"lat":23.02},"weather":[{"id":711,"main":"Smoke","description":"smoke","icon":"50d"}],"base":"stations","main":{"temp":309.15,"pressure":1013,"humidity":39,"temp_min":309.15,"temp_max":309.15},"visibility":5000,"wind":{"speed":2.32,"deg":306.009},"clouds":{"all":0},"dt":1539928800,"sys":{"type":1,"id":7758,"message":0.0096,"country":"IN","sunrise":1539911289,"sunset":1539952846},"id":1279233,"name":"Ahmedabad","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Bhubaneswar, IN' City Info, City Name=Bhubaneswar, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-569959775" onClick='toggleBox("Output-569959775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-569959775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-569959775">
+Test Case Name is: Verify 'Bhubaneswar, IN' City Info<br/>
+Response is: {"coord":{"lon":85.84,"lat":20.26},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50d"}],"base":"stations","main":{"temp":305.15,"pressure":1012,"humidity":66,"temp_min":305.15,"temp_max":305.15},"visibility":5000,"wind":{"speed":1.5,"deg":340},"clouds":{"all":0},"dt":1539928800,"sys":{"type":1,"id":7783,"message":0.0067,"country":"IN","sunrise":1539907975,"sunset":1539949799},"id":1275817,"name":"Bhubaneswar","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Chennai, IN' City Info, City Name=Chennai, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=IN, Status Code=200}<br/>
+<a href="#Output-209748487" onClick='toggleBox("Output-209748487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-209748487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-209748487">
+Test Case Name is: Verify 'Chennai, IN' City Info<br/>
+Response is: {"coord":{"lon":80.28,"lat":13.09},"weather":[{"id":200,"main":"Thunderstorm","description":"thunderstorm with light rain","icon":"11d"}],"base":"stations","main":{"temp":298.15,"pressure":1012,"humidity":88,"temp_min":298.15,"temp_max":298.15},"visibility":2000,"wind":{"speed":5.1,"deg":240,"gust":10.3},"clouds":{"all":90},"dt":1539928800,"sys":{"type":1,"id":7834,"message":0.0078,"country":"IN","sunrise":1539908986,"sunset":1539951462},"id":1264527,"name":"Chennai","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Texas, AU' City Info, City Name=Texas, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=AU, Status Code=200}<br/>
+<a href="#Output-986238875" onClick='toggleBox("Output-986238875", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-986238875" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-986238875">
+Test Case Name is: Verify 'Texas, AU' City Info<br/>
+Response is: {"coord":{"lon":151.17,"lat":-28.86},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":296.451,"pressure":982.61,"humidity":73,"temp_min":296.451,"temp_max":296.451,"sea_level":1030.16,"grnd_level":982.61},"wind":{"speed":2.52,"deg":286.509},"rain":{"3h":0.115},"clouds":{"all":76},"dt":1539930463,"sys":{"message":0.0056,"country":"AU","sunrise":1539890062,"sunset":1539936400},"id":2160132,"name":"Texas","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Chicago, US' City Info, City Name=Chicago, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}<br/>
+<a href="#Output-1293389141" onClick='toggleBox("Output-1293389141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1293389141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1293389141">
+Test Case Name is: Verify 'Chicago, US' City Info<br/>
+Response is: {"coord":{"lon":-87.62,"lat":41.88},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":280.04,"pressure":1026,"humidity":49,"temp_min":276.15,"temp_max":283.15},"visibility":16093,"wind":{"speed":2.1,"deg":210},"clouds":{"all":1},"dt":1539929700,"sys":{"type":1,"id":1030,"message":0.0073,"country":"US","sunrise":1539950866,"sunset":1539990138},"id":4887398,"name":"Chicago","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Houston, US' City Info, City Name=Houston, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}<br/>
+<a href="#Output-1163404461" onClick='toggleBox("Output-1163404461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1163404461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1163404461">
+Test Case Name is: Verify 'Houston, US' City Info<br/>
+Response is: {"coord":{"lon":-95.37,"lat":29.76},"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10n"}],"base":"stations","main":{"temp":292.14,"pressure":1022,"humidity":77,"temp_min":290.15,"temp_max":294.15},"visibility":14484,"wind":{"speed":4.6,"deg":30},"clouds":{"all":75},"dt":1539929700,"sys":{"type":1,"id":2646,"message":0.0059,"country":"US","sunrise":1539951959,"sunset":1539992776},"id":4699066,"name":"Houston","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Los Angeles, US' City Info, City Name=Los Angeles, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}<br/>
+<a href="#Output-892611887" onClick='toggleBox("Output-892611887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-892611887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-892611887">
+Test Case Name is: Verify 'Los Angeles, US' City Info<br/>
+Response is: {"coord":{"lon":-118.24,"lat":34.05},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":291.68,"pressure":1016,"humidity":59,"temp_min":287.15,"temp_max":294.15},"visibility":16093,"wind":{"speed":1.27,"deg":23.0088},"clouds":{"all":1},"dt":1539928680,"sys":{"type":1,"id":416,"message":0.0138,"country":"US","sunrise":1539957698,"sunset":1539998010},"id":5368361,"name":"Los Angeles","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Philadelphia, US' City Info, City Name=Philadelphia, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}<br/>
+<a href="#Output-1778028150" onClick='toggleBox("Output-1778028150", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1778028150" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1778028150">
+Test Case Name is: Verify 'Philadelphia, US' City Info<br/>
+Response is: {"coord":{"lon":-75.16,"lat":39.95},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":275.82,"pressure":1028,"humidity":73,"temp_min":273.15,"temp_max":279.15},"visibility":16093,"wind":{"speed":1.47,"deg":254.509},"clouds":{"all":1},"dt":1539929700,"sys":{"type":1,"id":2361,"message":0.0058,"country":"US","sunrise":1539947734,"sunset":1539987291},"id":4560349,"name":"Philadelphia","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Manchester, US' City Info, City Name=Manchester, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=US, Status Code=200}<br/>
+<a href="#Output-1760763936" onClick='toggleBox("Output-1760763936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1760763936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1760763936">
+Test Case Name is: Verify 'Manchester, US' City Info<br/>
+Response is: {"coord":{"lon":-71.45,"lat":43},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02n"}],"base":"stations","main":{"temp":273.07,"pressure":1024,"humidity":80,"temp_min":270.15,"temp_max":275.15},"visibility":16093,"wind":{"speed":1.5,"deg":180},"clouds":{"all":20},"dt":1539928560,"sys":{"type":1,"id":1949,"message":0.0082,"country":"US","sunrise":1539947066,"sunset":1539986175},"id":5089178,"name":"Manchester","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'London, GB' City Info, City Name=London, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}<br/>
+<a href="#Output-1992525817" onClick='toggleBox("Output-1992525817", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1992525817" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1992525817">
+Test Case Name is: Verify 'London, GB' City Info<br/>
+Response is: {"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":741,"main":"Fog","description":"fog","icon":"50n"},{"id":701,"main":"Mist","description":"mist","icon":"50n"}],"base":"stations","main":{"temp":277.4,"pressure":1025,"humidity":93,"temp_min":274.15,"temp_max":281.15},"visibility":10000,"wind":{"speed":1.5,"deg":320},"clouds":{"all":8},"dt":1539930000,"sys":{"type":1,"id":5091,"message":0.0063,"country":"GB","sunrise":1539930693,"sunset":1539968307},"id":2643743,"name":"London","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Edinburgh, GB' City Info, City Name=Edinburgh, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}<br/>
+<a href="#Output-1610155589" onClick='toggleBox("Output-1610155589", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610155589" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610155589">
+Test Case Name is: Verify 'Edinburgh, GB' City Info<br/>
+Response is: {"coord":{"lon":-3.19,"lat":55.95},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":281.12,"pressure":1020,"humidity":87,"temp_min":280.15,"temp_max":282.15},"visibility":10000,"wind":{"speed":5.1,"deg":230},"clouds":{"all":0},"dt":1539930000,"sys":{"type":1,"id":5122,"message":0.0051,"country":"GB","sunrise":1539931948,"sunset":1539968513},"id":2650225,"name":"Edinburgh","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Birmingham, GB' City Info, City Name=Birmingham, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}<br/>
+<a href="#Output-1510009630" onClick='toggleBox("Output-1510009630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1510009630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1510009630">
+Test Case Name is: Verify 'Birmingham, GB' City Info<br/>
+Response is: {"coord":{"lon":-1.89,"lat":52.48},"weather":[{"id":741,"main":"Fog","description":"fog","icon":"50n"}],"base":"stations","main":{"temp":276.49,"pressure":1026,"humidity":100,"temp_min":276.15,"temp_max":277.15},"visibility":1000,"wind":{"speed":0.5},"clouds":{"all":40},"dt":1539930420,"sys":{"type":1,"id":5055,"message":0.0072,"country":"GB","sunrise":1539931220,"sunset":1539968623},"id":2655603,"name":"Birmingham","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+<tr>
+<td title='APITEST.TestWeatherAPIWithDataProvide.verifyWeatherInfoWithPositiveData()'><b>verifyWeatherInfoWithPositiveData</b><br>Test class: APITEST.TestWeatherAPIWithDataProvide<br>Parameters: {Test Case Name=Verify 'Glasgow, GB' City Info, City Name=Glasgow, App ID=17e5c69afcef0f16365a6c3b0cba4400, Country Code=GB, Status Code=200}<br/>
+<a href="#Output-1270565296" onClick='toggleBox("Output-1270565296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1270565296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1270565296">
+Test Case Name is: Verify 'Glasgow, GB' City Info<br/>
+Response is: {"coord":{"lon":-4.24,"lat":55.86},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04n"}],"base":"stations","main":{"temp":281.8,"pressure":1021,"humidity":81,"temp_min":281.15,"temp_max":282.15},"visibility":10000,"wind":{"speed":4.1,"deg":200},"clouds":{"all":75},"dt":1539930000,"sys":{"type":1,"id":5121,"message":0.0072,"country":"GB","sunrise":1539932188,"sunset":1539968777},"id":2648579,"name":"Glasgow","cod":200}<br/>
+Verified the Status code successfully<br/>
+Country code has verified successfully<br/>
+City name has verified successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>APITEST.TestWeatherAPIWithDataProvide@204f30ec</td></tr>
+</table><p>
+</body>
+</html>
