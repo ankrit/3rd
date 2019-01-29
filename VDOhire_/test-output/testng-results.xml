@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome launch]]>
+    </line>
+    <line>
+      <![CDATA[Home-page title is verified:)VDO!hire]]>
+    </line>
+    <line>
+      <![CDATA[Chrome launch]]>
+    </line>
+    <line>
+      <![CDATA[error msg is verifyed successfully ):]]>
+    </line>
+    <line>
+      <![CDATA[Chrome launch]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="158811" started-at="2019-01-29T09:33:43Z" finished-at="2019-01-29T09:36:22Z">
+    <groups>
+    </groups>
+    <test name="Extent Report Test" duration-ms="158811" started-at="2019-01-29T09:33:43Z" finished-at="2019-01-29T09:36:22Z">
+      <class name="Com.VDOhire.generic.BasicExtentReport">
+        <test-method status="PASS" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.generic.BasicExtentReport@185d8b6]" name="startReport" is-config="true" duration-ms="283" started-at="2019-01-29T15:03:43Z" finished-at="2019-01-29T15:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.VDOhire.generic.BasicExtentReport@185d8b6]" name="tearDown" is-config="true" duration-ms="519" started-at="2019-01-29T15:06:22Z" finished-at="2019-01-29T15:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.VDOhire.generic.BasicExtentReport -->
+      <class name="Com.VDOhire.test.LoginTest">
+        <test-method status="PASS" signature="confiBrowser(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="confiBrowser" is-config="true" duration-ms="12055" started-at="2019-01-29T15:03:43Z" finished-at="2019-01-29T15:03:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vdohire.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome launch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confiBrowser -->
+        <test-method status="PASS" signature="logInWithPositiveValue()[pri:1, instance:Com.VDOhire.test.LoginTest@67784306]" name="logInWithPositiveValue" duration-ms="96992" started-at="2019-01-29T15:03:55Z" finished-at="2019-01-29T15:05:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home-page title is verified:)VDO!hire]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInWithPositiveValue -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="12" started-at="2019-01-29T15:05:32Z" finished-at="2019-01-29T15:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithPositiveValue status=SUCCESS method=LoginTest.logInWithPositiveValue()[pri:1, instance:Com.VDOhire.test.LoginTest@67784306] output=Home-page title is verified:)VDO!hire]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="takeMethodName(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="takeMethodName" is-config="true" duration-ms="1" started-at="2019-01-29T15:05:32Z" finished-at="2019-01-29T15:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithPositiveValue status=SUCCESS method=LoginTest.logInWithPositiveValue()[pri:1, instance:Com.VDOhire.test.LoginTest@67784306] output=Home-page title is verified:)VDO!hire]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeMethodName -->
+        <test-method status="PASS" signature="confiBrowser(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="confiBrowser" is-config="true" duration-ms="30197" started-at="2019-01-29T15:05:32Z" finished-at="2019-01-29T15:06:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vdohire.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome launch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confiBrowser -->
+        <test-method status="PASS" signature="logInWithInvalidvalue()[pri:2, instance:Com.VDOhire.test.LoginTest@67784306]" name="logInWithInvalidvalue" duration-ms="2546" started-at="2019-01-29T15:06:02Z" finished-at="2019-01-29T15:06:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[error msg is verifyed successfully ):]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logInWithInvalidvalue -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="1" started-at="2019-01-29T15:06:05Z" finished-at="2019-01-29T15:06:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithInvalidvalue status=SUCCESS method=LoginTest.logInWithInvalidvalue()[pri:2, instance:Com.VDOhire.test.LoginTest@67784306] output=error msg is verifyed successfully ):]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="takeMethodName(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="takeMethodName" is-config="true" duration-ms="0" started-at="2019-01-29T15:06:05Z" finished-at="2019-01-29T15:06:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logInWithInvalidvalue status=SUCCESS method=LoginTest.logInWithInvalidvalue()[pri:2, instance:Com.VDOhire.test.LoginTest@67784306] output=error msg is verifyed successfully ):]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeMethodName -->
+        <test-method status="PASS" signature="confiBrowser(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="confiBrowser" is-config="true" duration-ms="11378" started-at="2019-01-29T15:06:05Z" finished-at="2019-01-29T15:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://vdohire.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome launch]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- confiBrowser -->
+        <test-method status="PASS" signature="verifyGmailAC()[pri:3, instance:Com.VDOhire.test.LoginTest@67784306]" name="verifyGmailAC" duration-ms="5599" started-at="2019-01-29T15:06:16Z" finished-at="2019-01-29T15:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGmailAC -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="getResult" is-config="true" duration-ms="1" started-at="2019-01-29T15:06:22Z" finished-at="2019-01-29T15:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGmailAC status=SUCCESS method=LoginTest.verifyGmailAC()[pri:3, instance:Com.VDOhire.test.LoginTest@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="takeMethodName(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.LoginTest@67784306]" name="takeMethodName" is-config="true" duration-ms="0" started-at="2019-01-29T15:06:22Z" finished-at="2019-01-29T15:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGmailAC status=SUCCESS method=LoginTest.verifyGmailAC()[pri:3, instance:Com.VDOhire.test.LoginTest@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeMethodName -->
+      </class> <!-- Com.VDOhire.test.LoginTest -->
+    </test> <!-- Extent Report Test -->
+  </suite> <!-- Suite -->
+</testng-results>

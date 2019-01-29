@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="OS" value="Windows"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="https://vdohire.com"/>
+  <test name="Extent Report Test(failed)">
+    <classes>
+      <class name="Com.VDOhire.test.LoginTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="takeMethodName"/>
+          <include name="startReport"/>
+          <include name="logInWithPositiveValue"/>
+          <include name="tearDown"/>
+          <include name="confiBrowser"/>
+        </methods>
+      </class> <!-- Com.VDOhire.test.LoginTest -->
+    </classes>
+  </test> <!-- Extent Report Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
