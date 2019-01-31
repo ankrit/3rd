@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="OS" value="Windows"/>
-  <parameter name="browser" value="Chrome"/>
+  <parameter name="browser" value="chrome"/>
   <parameter name="url" value="https://vdohire.com"/>
   <test name="Extent Report Test(failed)">
     <classes>
@@ -11,8 +11,8 @@
           <include name="getResult"/>
           <include name="takeMethodName"/>
           <include name="startReport"/>
-          <include name="logInWithPositiveValue"/>
           <include name="tearDown"/>
+          <include name="verifyGmailAC"/>
           <include name="confiBrowser"/>
         </methods>
       </class> <!-- Com.VDOhire.test.LoginTest -->

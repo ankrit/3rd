@@ -22,6 +22,8 @@ public class BaseClass {
 	 
 	 @Parameters({"browser","url"})
 	
+	 
+	 
 	public String confiBrowser(String browser,String url) 
 	{
 		 if(browser.equalsIgnoreCase("firefox"))

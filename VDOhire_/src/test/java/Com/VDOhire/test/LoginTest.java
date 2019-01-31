@@ -29,7 +29,7 @@ import Com.VDOhire.pom.SendInvitationsPage;
 public class LoginTest extends BasicExtentReport  
 {
    
-	@Test(priority=1)
+	//@Test(priority=1)
 	
 	        /**********login on vdohire with valid username and password************/
 	
@@ -93,7 +93,7 @@ public class LoginTest extends BasicExtentReport
 	 * @throws InvalidFormatException ****/
 	
 	
-	@Test(priority=2)
+	//@Test(priority=2)
 	
 	public void logInWithInvalidvalue() throws EncryptedDocumentException, FileNotFoundException, IOException, InvalidFormatException 
 	{
@@ -135,12 +135,21 @@ public class LoginTest extends BasicExtentReport
 		String password = ExcelUtility.getExcelSheet(excelpath,"Shashank",3, 2);
 		
 		GmailVerifyPage  gmail=new GmailVerifyPage(driver);
+		
+		
+		
 		gmail.loginOnuser(driver, username);
 		
 		Thread.sleep(2000l);
+		
+		
 		gmail.loginWithpass(driver, password);
 		
 
+		
+		
+		
+		
 		 Assert.assertTrue(true);
 	}
 
