@@ -28,24 +28,32 @@ import Com.VDOhire.pom.SendInvitationsPage;
 
 public class LoginTest extends BasicExtentReport  
 {
-   
-	//@Test(priority=1)
+   //public LoginPage login;
+	@Test(priority=1)
 	
 	        /**********login on vdohire with valid username and password************/
 	
-	public void logInWithPositiveValue() throws EncryptedDocumentException, FileNotFoundException, IOException, InvalidFormatException, InterruptedException, FindFailed
+	public void logInWithPositiveValue() throws FindFailed, InterruptedException, EncryptedDocumentException, FileNotFoundException, InvalidFormatException, IOException
 	{
 		 test = extent.createTest("logInWithPositiveValue", "PASSED test case");
 		
-		LoginPage login= new  LoginPage(driver);
+		 LoginPage login= new  LoginPage(driver);
 		
+		 Thread.sleep(5000l);
+		 
 		 login.LoginForEmpButton();
 		 
 		 String excelpath="C:\\Users\\vinda\\eclipse-workspace\\VDOhire_\\ExcelSheet\\testdata.xlsx";
 		
-		String username = ExcelUtility.getExcelSheet(excelpath, "Shashank", 1, 1);
 		
-		String password = ExcelUtility.getExcelSheet(excelpath, "Shashank", 1, 2);
+		
+		 	String username = ExcelUtility.getExcelSheet(excelpath, "Shashank", 1, 1);
+		
+		
+		
+		
+		 	String password = ExcelUtility.getExcelSheet(excelpath, "Shashank", 1, 2);
+		
 		
 		
 		 login.getLoginPage(username, password);		
@@ -68,7 +76,9 @@ public class LoginTest extends BasicExtentReport
 		  org.sikuli.script.Pattern pattern=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\filename.PNG");
 	
 		   org.sikuli.script.Pattern openbtn=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\open.PNG");
-			 src.type(pattern,"C:\\Users\\vinda\\Desktop\\test1.csv");
+			
+				src.type(pattern,"C:\\Users\\vinda\\Desktop\\test1.csv");
+			
 			 WaitStatementLib wait=new WaitStatementLib();
 				
 				wait.implicitWaitForSecond(driver, 20); 
@@ -90,12 +100,13 @@ public class LoginTest extends BasicExtentReport
 	 * @throws FileNotFoundException 
 	 * 
 	 * @throws EncryptedDocumentException 
-	 * @throws InvalidFormatException ****/
+	 * @throws InvalidFormatException 
+	 * @throws InterruptedException ****/
 	
 	
-	//@Test(priority=2)
+	@Test(priority=2)
 	
-	public void logInWithInvalidvalue() throws EncryptedDocumentException, FileNotFoundException, IOException, InvalidFormatException 
+	public void logInWithInvalidvalue() throws EncryptedDocumentException, FileNotFoundException, IOException, InvalidFormatException, InterruptedException 
 	{
 
 		 test = extent.createTest("logInWithInvalidvalue", "PASSED test case");
@@ -106,7 +117,7 @@ public class LoginTest extends BasicExtentReport
 		   
 		LoginPage login= new  LoginPage(driver);
 		
-		
+		Thread.sleep(5000l);
 		
 		    login.LoginForEmpButton();
 		    
@@ -144,10 +155,6 @@ public class LoginTest extends BasicExtentReport
 		
 		
 		gmail.loginWithpass(driver, password);
-		
-
-		
-		
 		
 		
 		 Assert.assertTrue(true);

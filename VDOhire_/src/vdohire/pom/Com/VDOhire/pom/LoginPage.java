@@ -29,16 +29,18 @@ public class LoginPage
 
 	
 
-	public void LoginForEmpButton()
-	{
-		LoginForEmpBtn.click();
-		
-	}
+
 	public LoginPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
+	public void LoginForEmpButton() throws InterruptedException
 	
+	{
+		Thread.sleep(5000l);
+		LoginForEmpBtn.click();
+		
+	}
 	public void getLoginPage( String username , String password)
 
 	{

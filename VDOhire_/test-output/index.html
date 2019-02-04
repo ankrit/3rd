@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\vinda\git\shashank\VDOhire_\ExtendReport.xml</span>
+                    <span>C:\Users\vinda\git\shashank\VDOhire_\job.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Com.VDOhire.test.LoginTest" hash-for-method="verifyGmailAC">verifyGmailAC</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Com.VDOhire.test.JobTest" hash-for-method="logInforJobCreation">logInforJobCreation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,50 +117,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Com.VDOhire.test.LoginTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">Com.VDOhire.test.JobTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyGmailAC">
-                  </a> <!-- verifyGmailAC -->
-                  <span class="method-name">verifyGmailAC</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;LAPTOP-ONRUMTQ2&apos;, ip: &apos;192.168.99.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\vinda\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56924}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: b4fd18d79a69cd44853542279105ab30
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at Com.VDOhire.pom.GmailVerifyPage.loginWithpass(GmailVerifyPage.java:64)
-	at Com.VDOhire.test.LoginTest.verifyGmailAC(LoginTest.java:146)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
+                  <a name="logInforJobCreation">
+                  </a> <!-- logInforJobCreation -->
+                  <span class="method-name">logInforJobCreation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vinda\git\shashank\VDOhire_\ExtendReport.xml</span>
+            <span class="header-content">C:\Users\vinda\git\shashank\VDOhire_\job.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -170,12 +145,12 @@ Session ID: b4fd18d79a69cd44853542279105ab30
   &lt;parameter name=&quot;OS&quot; value=&quot;Windows&quot;/&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://vdohire.com&quot;/&gt;
-  &lt;test name=&quot;Extent Report Test&quot;&gt;
+  &lt;test name=&quot;Extent Report Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Com.VDOhire.generic.BasicExtentReport&quot;/&gt;
-      &lt;class name=&quot;Com.VDOhire.test.LoginTest&quot;/&gt;
+      &lt;class name=&quot;Com.VDOhire.test.JobTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Extent Report Test --&gt;
+  &lt;/test&gt; &lt;!-- Extent Report Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,7 +162,7 @@ Session ID: b4fd18d79a69cd44853542279105ab30
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Extent Report Test (2 classes)</span>
+                <span class="test-name">Extent Report Test1 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -215,14 +190,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyGmailAC')
-data.setCell(0, 2, 'Com.VDOhire.test.LoginTest')
-data.setCell(0, 3, 1221083);
+data.setCell(0, 1, 'logInforJobCreation')
+data.setCell(0, 2, 'Com.VDOhire.test.JobTest')
+data.setCell(0, 3, 139968);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -233,6 +208,12 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logInforJobCreation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Home-page title is verified:)VDO!hire</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -241,7 +222,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">Com.VDOhire.test.LoginTest</span>
+              <span class="ignored-class-name">Com.VDOhire.test.JobTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">startReport</span>
                 <br/>
@@ -264,31 +245,29 @@ return data;
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Com.VDOhire.test.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Com.VDOhire.test.JobTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">confiBrowser(chrome, https://vdohire.com)</span>
-                <span class="method-start">227 ms</span>
+                <span class="method-start">277 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">verifyGmailAC</span>
-                <span class="method-start">11740 ms</span>
+                <span class="method-name">logInforJobCreation</span>
+                <span class="method-start">12334 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=verifyGmailAC status=FAILURE method=LoginTest.verifyGmailAC()[pri:3, instance:Com.V...)</span>
-                <span class="method-start">1232829 ms</span>
+                <span class="method-name">getResult([TestResult name=logInforJobCreation status=SUCCESS method=JobTest.logInforJobCreation()[pri:0, inst...)</span>
+                <span class="method-start">152305 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
-                <span class="method-name">takeMethodName([TestResult name=verifyGmailAC status=FAILURE method=LoginTest.verifyGmailAC()[pri:3, instance:Com.V...)</span>
-                <span class="method-start">1232849 ms</span>
+                <span class="method-name">takeMethodName([TestResult name=logInforJobCreation status=SUCCESS method=JobTest.logInforJobCreation()[pri:0, inst...)</span>
+                <span class="method-start">152316 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Com.VDOhire.generic.BasicExtentReport</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1233622 ms</span>
+                <span class="method-start">152358 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

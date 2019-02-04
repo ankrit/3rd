@@ -50,11 +50,12 @@ public class BaseClass {
 		        Reporter.log("InternetExplorer launch", true);
 		       // driver.get(PropertyFiles.getPropertyValue("URL"));
 		 }
-		 WaitStatementLib.implicitWaitForMinutes(driver, 20);
+		 WaitStatementLib.implicitWaitForSecond(driver, 20);
 		 driver.get(url);
 		 driver.manage().window().maximize();
-		 //getDriver().navigate().refresh();
-		 WaitStatementLib.implicitWaitForMinutes(driver, 20);
+		// driver.navigate().to(url);
+		 driver.navigate().refresh();
+		 WaitStatementLib.implicitWaitForSecond(driver, 20);
 		return url;
 		 	 
 		

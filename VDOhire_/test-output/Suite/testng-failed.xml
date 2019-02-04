@@ -4,18 +4,18 @@
   <parameter name="OS" value="Windows"/>
   <parameter name="browser" value="chrome"/>
   <parameter name="url" value="https://vdohire.com"/>
-  <test name="Extent Report Test(failed)">
+  <test name="Extent Report Test1(failed)">
     <classes>
-      <class name="Com.VDOhire.test.LoginTest">
+      <class name="Com.VDOhire.test.JobTest">
         <methods>
           <include name="getResult"/>
+          <include name="logInforJobCreation"/>
           <include name="takeMethodName"/>
           <include name="startReport"/>
           <include name="tearDown"/>
-          <include name="verifyGmailAC"/>
           <include name="confiBrowser"/>
         </methods>
-      </class> <!-- Com.VDOhire.test.LoginTest -->
+      </class> <!-- Com.VDOhire.test.JobTest -->
     </classes>
-  </test> <!-- Extent Report Test(failed) -->
+  </test> <!-- Extent Report Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
