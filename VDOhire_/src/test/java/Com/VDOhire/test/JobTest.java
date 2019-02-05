@@ -15,6 +15,8 @@ import Com.VDOhire.generic.BasicExtentReport;
 import Com.VDOhire.generic.ExcelUtility;
 import Com.VDOhire.generic.HighLighter;
 import Com.VDOhire.generic.WaitStatementLib;
+import Com.VDOhire.pom.InterviewTabPage;
+import Com.VDOhire.pom.JobConfigTabPage;
 import Com.VDOhire.pom.JobPage;
 import Com.VDOhire.pom.LoginPage;
 
@@ -113,6 +115,33 @@ public class JobTest extends BasicExtentReport
 	job.SalarytoandFrom(driver,salaryfrom,salaryto);
 	
 	job.SecondSideField(driver, jobid, vacancy, qualification,notice );
+	
+	JobConfigTabPage config=new JobConfigTabPage(driver);
+	Thread.sleep(5000l);
+	config.setUpJobType(driver);
+	
+	
+	
+	String setname = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 1);
+	String noofque = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 2);
+	String setname2 = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 3);
+	
+	InterviewTabPage interview=new InterviewTabPage(driver);
+	Thread.sleep(7000l);
+	  interview.setUpInterview(driver,setname, noofque, setname2);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	}	
 }

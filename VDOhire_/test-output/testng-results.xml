@@ -8,12 +8,12 @@
       <![CDATA[Home-page title is verified:)VDO!hire]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="152063" started-at="2019-02-04T12:32:40Z" finished-at="2019-02-04T12:35:12Z">
+  <suite name="Suite" duration-ms="257930" started-at="2019-02-05T10:18:44Z" finished-at="2019-02-05T10:23:02Z">
     <groups>
     </groups>
-    <test name="Extent Report Test1" duration-ms="152063" started-at="2019-02-04T12:32:40Z" finished-at="2019-02-04T12:35:12Z">
+    <test name="Extent Report Test1" duration-ms="257930" started-at="2019-02-05T10:18:44Z" finished-at="2019-02-05T10:23:02Z">
       <class name="Com.VDOhire.generic.BasicExtentReport">
-        <test-method status="PASS" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.generic.BasicExtentReport@6b09bb57]" name="startReport" is-config="true" duration-ms="255" started-at="2019-02-04T18:02:40Z" finished-at="2019-02-04T18:02:40Z">
+        <test-method status="PASS" signature="startReport(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.generic.BasicExtentReport@6b09bb57]" name="startReport" is-config="true" duration-ms="209" started-at="2019-02-05T15:48:44Z" finished-at="2019-02-05T15:48:44Z">
           <params>
             <param index="0">
               <value>
@@ -29,13 +29,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.VDOhire.generic.BasicExtentReport@6b09bb57]" name="tearDown" is-config="true" duration-ms="385" started-at="2019-02-04T18:05:12Z" finished-at="2019-02-04T18:05:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Com.VDOhire.generic.BasicExtentReport@6b09bb57]" name="tearDown" is-config="true" duration-ms="511" started-at="2019-02-05T15:53:02Z" finished-at="2019-02-05T15:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Com.VDOhire.generic.BasicExtentReport -->
       <class name="Com.VDOhire.test.JobTest">
-        <test-method status="PASS" signature="confiBrowser(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="confiBrowser" is-config="true" duration-ms="12057" started-at="2019-02-04T18:02:40Z" finished-at="2019-02-04T18:02:52Z">
+        <test-method status="PASS" signature="confiBrowser(java.lang.String, java.lang.String)[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="confiBrowser" is-config="true" duration-ms="12471" started-at="2019-02-05T15:48:44Z" finished-at="2019-02-05T15:48:56Z">
           <params>
             <param index="0">
               <value>
@@ -54,14 +54,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- confiBrowser -->
-        <test-method status="PASS" signature="logInforJobCreation()[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="logInforJobCreation" duration-ms="139968" started-at="2019-02-04T18:02:52Z" finished-at="2019-02-04T18:05:12Z">
+        <test-method status="PASS" signature="logInforJobCreation()[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="logInforJobCreation" duration-ms="245423" started-at="2019-02-05T15:48:56Z" finished-at="2019-02-05T15:53:02Z">
           <reporter-output>
             <line>
               <![CDATA[Home-page title is verified:)VDO!hire]]>
             </line>
           </reporter-output>
         </test-method> <!-- logInforJobCreation -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="getResult" is-config="true" duration-ms="11" started-at="2019-02-04T18:05:12Z" finished-at="2019-02-04T18:05:12Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="getResult" is-config="true" duration-ms="11" started-at="2019-02-05T15:53:02Z" finished-at="2019-02-05T15:53:02Z">
           <params>
             <param index="0">
               <value>
@@ -72,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="takeMethodName(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="takeMethodName" is-config="true" duration-ms="0" started-at="2019-02-04T18:05:12Z" finished-at="2019-02-04T18:05:12Z">
+        <test-method status="PASS" signature="takeMethodName(org.testng.ITestResult)[pri:0, instance:Com.VDOhire.test.JobTest@6536e911]" name="takeMethodName" is-config="true" duration-ms="1" started-at="2019-02-05T15:53:02Z" finished-at="2019-02-05T15:53:02Z">
           <params>
             <param index="0">
               <value>

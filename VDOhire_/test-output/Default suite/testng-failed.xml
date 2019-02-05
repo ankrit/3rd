@@ -3,17 +3,16 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Com.VDOhire.test.LoginTest">
+      <class name="Com.VDOhire.test.JobTest">
         <methods>
-          <include name="logInWithInvalidvalue"/>
           <include name="getResult"/>
+          <include name="logInforJobCreation"/>
           <include name="takeMethodName"/>
           <include name="startReport"/>
-          <include name="logInWithPositiveValue"/>
           <include name="tearDown"/>
           <include name="confiBrowser"/>
         </methods>
-      </class> <!-- Com.VDOhire.test.LoginTest -->
+      </class> <!-- Com.VDOhire.test.JobTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
