@@ -72,6 +72,8 @@ public class InterviewTabPage {
 	@FindBy(xpath="(//button[text()='Save'])[4]")
 	private WebElement saveBtn2;
 	
+	@FindBy(xpath="(//button[text()='×'])[2]")
+	private WebElement cutTheInterviewpage;
 	
 	public InterviewTabPage (WebDriver driver)
 	{
@@ -159,6 +161,8 @@ public class InterviewTabPage {
 		  HighLighter.highLightElement(driver, saveBtn2);
 		  saveBtn2.click();
 		  
+		  HighLighter.highLightElement(driver,cutTheInterviewpage);
+		  cutTheInterviewpage.click();
 	}
 	
 	

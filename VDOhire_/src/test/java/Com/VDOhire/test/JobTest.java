@@ -19,6 +19,7 @@ import Com.VDOhire.pom.InterviewTabPage;
 import Com.VDOhire.pom.JobConfigTabPage;
 import Com.VDOhire.pom.JobPage;
 import Com.VDOhire.pom.LoginPage;
+import Com.VDOhire.pom.ManageAssessmentSetsPage;
 
 
 public class JobTest extends BasicExtentReport
@@ -127,11 +128,23 @@ public class JobTest extends BasicExtentReport
 	String setname2 = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 3);
 	
 	InterviewTabPage interview=new InterviewTabPage(driver);
-	Thread.sleep(7000l);
+	Thread.sleep(2000l);
 	  interview.setUpInterview(driver,setname, noofque, setname2);
 	
+	  
+	  String setname1 = ExcelUtility.getExcelSheet(excelpath, "Shashank", 19, 1);
+	  String duration = ExcelUtility.getExcelSheet(excelpath, "Shashank", 19, 2);
+	  noofque=  ExcelUtility.getExcelSheet(excelpath, "Shashank", 19, 3);
+	  String setque2 = ExcelUtility.getExcelSheet(excelpath, "Shashank", 19, 4);
+	  String selectType = ExcelUtility.getExcelSheet(excelpath, "Shashank", 19, 5);
+	  
+//	  ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 1);
+//	  ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 1);
 	
-	
+	  ManageAssessmentSetsPage manage=new ManageAssessmentSetsPage(driver);
+	  
+	  Thread.sleep(2000l);
+	  manage.setTheAssessmentTypeQue(driver, setname1, duration, noofque, setque2, selectType);
 	
 	
 	
