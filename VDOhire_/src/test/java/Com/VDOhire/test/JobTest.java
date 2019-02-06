@@ -20,6 +20,7 @@ import Com.VDOhire.pom.JobConfigTabPage;
 import Com.VDOhire.pom.JobPage;
 import Com.VDOhire.pom.LoginPage;
 import Com.VDOhire.pom.ManageAssessmentSetsPage;
+import Com.VDOhire.pom.RecruiterSetUpPage;
 
 
 public class JobTest extends BasicExtentReport
@@ -149,10 +150,11 @@ public class JobTest extends BasicExtentReport
 	
 	
 	
+	  //String RecruiterEmailID = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 1);
+	  Thread.sleep(2000l);
+	  RecruiterSetUpPage recu=new RecruiterSetUpPage(driver);
 	
-	
-	
-	
+	recu.setUpRecruiter(driver);
 	
 	
 	

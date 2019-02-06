@@ -32,12 +32,13 @@ public class JobConfigTabPage {
     {
     	
     	Thread.sleep(2000l);
-    	HighLighter.highLightElement(driver, ExternalJobChkBox);
+    	//HighLighter.highLightElement(driver, ExternalJobChkBox);
     	boolean flag = ExternalJobChkBox.isSelected();
     	//System.out.println(flag);
     	
     	 if(flag)
     	 {
+    		 HighLighter.highLightElement(driver, ExternalJobChkBox);
     		 System.out.println("External checkbox is already selected");
     	 }
     	 else
@@ -52,6 +53,7 @@ public class JobConfigTabPage {
     	 if(flag2)
     	 {
     		 //System.out.println(flag2);
+    		 HighLighter.highLightElement(driver,interviewchekBox);
     		 System.out.println("interview checkbox is already selected");
     	 }
     	 else

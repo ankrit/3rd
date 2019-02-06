@@ -83,7 +83,7 @@ public class BaseClass {
     
 }
 		// driver.quit();
-		// Reporter.log("browser closed",true);
+		 //Reporter.log("browser closed",true);
 	 }
 
 	
