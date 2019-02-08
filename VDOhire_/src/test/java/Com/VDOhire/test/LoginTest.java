@@ -59,38 +59,38 @@ public class LoginTest extends BasicExtentReport
 		 login.getLoginPage(username, password);		
 		
 		 login.varifyWithAssert(driver);
-		 
-		 SendInvitationsPage si=new SendInvitationsPage(driver);
-		
-		 
-		Thread.sleep(2000l);
-		   si.SendInvitation(driver);
-		   Thread.sleep(2000l);
-		   si.InviteUsers(driver);
-		 
-		   
-/******  use sikuli for desktop app  ************/
-		   
-		   Screen src=new Screen();
-		   
-		  org.sikuli.script.Pattern pattern=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\filename.PNG");
-	
-		   org.sikuli.script.Pattern openbtn=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\open.PNG");
-			
-				src.type(pattern,"C:\\Users\\vinda\\Desktop\\test1.csv");
-			
-			 WaitStatementLib wait=new WaitStatementLib();
-				
-				wait.implicitWaitForSecond(driver, 20); 
-			 
-			
-			  src.click(openbtn);
-			  
-			  Thread.sleep(2000l);
-			  si.SendInvitedBtn(driver);
-			  
- /******  end sikuli code for desktop app  ************/			  
-		  	   
+//		 
+//		 SendInvitationsPage si=new SendInvitationsPage(driver);
+//		
+//		 
+//		Thread.sleep(2000l);
+//		   si.SendInvitation(driver);
+//		   Thread.sleep(2000l);
+//		   si.InviteUsers(driver);
+//		 
+//		   
+///******  use sikuli for desktop app  ************/
+//		   
+//		   Screen src=new Screen();
+//		   
+//		  org.sikuli.script.Pattern pattern=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\filename.PNG");
+//	
+//		   org.sikuli.script.Pattern openbtn=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\open.PNG");
+//			
+//				src.type(pattern,"C:\\Users\\vinda\\Desktop\\test1.csv");
+//			
+//			 WaitStatementLib wait=new WaitStatementLib();
+//				
+//				wait.implicitWaitForSecond(driver, 20); 
+//			 
+//			
+//			  src.click(openbtn);
+//			  
+//			  Thread.sleep(2000l);
+//			  si.SendInvitedBtn(driver);
+//			  
+// /******  end sikuli code for desktop app  ************/			  
+//		  	   
 		 Assert.assertTrue(true);
 		   		 
 	}

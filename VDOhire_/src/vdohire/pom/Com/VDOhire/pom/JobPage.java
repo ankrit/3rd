@@ -82,11 +82,16 @@ public class JobPage
 	@FindBy(tagName="iframe")
 	private WebElement frame;
 	
-	@FindBy(xpath="//button[text()='Ok']")
-	private WebElement okbtn;
+	@FindBy(xpath="//button[text()='Save and go to Job List']")
+	private WebElement goTojobList;
+	
+	@FindBy(xpath="(//a[@title='Edit this job'])[1]")
+	private WebElement edit;
 	
 	@FindBy(xpath="//a[text()='Configuration']")
 	private WebElement configTab;
+	
+	
 	
 	
 	public JobPage(WebDriver driver)
@@ -127,7 +132,7 @@ public class JobPage
 		Country.click();
 		Country.sendKeys(country);
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		Country.sendKeys(Keys.ENTER);
 	
 		WaitStatementLib.implicitWaitForSecond(driver, 20);
@@ -135,7 +140,7 @@ public class JobPage
 		//HighLighter.highLightElement(driver, City);
 		City.click();
 		City.sendKeys(city);
-	    Thread.sleep(2000l);
+	    Thread.sleep(1000l);
 	     CityName.sendKeys(Keys.ENTER);
 	     
 	    
@@ -193,7 +198,7 @@ public class JobPage
 		   actions.sendKeys(qualification);
 		   actions.build().perform();
 	   WaitStatementLib.implicitWaitForSecond(driver, 20);   
-	   Thread.sleep(3000l);
+	   Thread.sleep(1000l);
 		   actions.sendKeys(Keys.ENTER);
 		
 		
@@ -213,19 +218,54 @@ public class JobPage
 		HighLighter.highLightElement(driver, ageToBtn);
 		Select sel3=new Select(ageToBtn);
 		sel3.selectByIndex(7);
+		
 		HighLighter.highLightElement(driver,Notice);
 		Notice.sendKeys(notice);
 		
 		Notice.sendKeys(Keys.ENTER);
 		
-		//saveBtn.click();
-		HighLighter.highLightElement(driver, okbtn);
-		okbtn.click();
+//		 Thread.sleep(2000l);
+//			HighLighter.highLightElement(driver, saveBtn);
+//		saveBtn.click();
+		
+		 Thread.sleep(3000l);
+		HighLighter.highLightElement(driver, goTojobList);
+		goTojobList.click();
+		
+		 Thread.sleep(2000l);
+			HighLighter.highLightElement(driver,edit);
+			edit.click();
+		
+		
 		HighLighter.highLightElement(driver,configTab );
 		configTab.click();
 	}
 
-	
+		
+	//	((JavascriptExecutor)driver).executeScript("scroll(0,800)");
+		
+//public void ScrollInjob(WebDriver driver) throws InterruptedException
+//{
+//	
+//		/*****scroll up******/
+////		Thread.sleep(3000l);
+////		JavascriptExecutor js=((JavascriptExecutor)driver);
+////		js.executeScript("window.scrollBy(0,-500");
+//		
+//		Actions actions = new Actions(driver);
+//		actions.sendKeys(Keys.UP).build().perform();
+//		actions.sendKeys(Keys.UP).build().perform();
+//		actions.sendKeys(Keys.UP).build().perform();
+//		
+//		
+//		//saveBtn.click();
+////		HighLighter.highLightElement(driver, okbtn);
+////		okbtn.click();
+//		HighLighter.highLightElement(driver,configTab );
+//		configTab.click();
+		
+}
+
 	
 	
 	
@@ -238,4 +278,3 @@ public class JobPage
 	
 	
 
-}

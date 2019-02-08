@@ -16,12 +16,15 @@ public class RecruiterSetUpPage {
 	private WebElement addLevel1Recruiter;
 	
 	
-	@FindBy(xpath="///li[@class='result-selected']")
+	@FindBy(xpath="//li[@class='result-selected']")
 	private WebElement SelectID;
 	
 	@FindBy(xpath="//div[@class='padding-right46px']//button[@type='button'][contains(text(),'Save')]")
 	private WebElement Savebtn;
 	
+
+	@FindBy(xpath="//button[contains(text(),'Save and go to Job List')]")
+	private WebElement goTojobListbtn;
 	
 	public RecruiterSetUpPage(WebDriver driver)
 	{
@@ -32,22 +35,38 @@ public class RecruiterSetUpPage {
 	public void setUpRecruiter(WebDriver driver) throws InterruptedException
 	{
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver,recruiterBtnTab);
 		recruiterBtnTab.click();
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver,addLevel1Recruiter);
 		addLevel1Recruiter.click();		
 		
-		Thread.sleep(2000l);
-		 HighLighter.highLightElement(driver,SelectID);
-		//li[@class='result-selected']c
-		SelectID.click();
 		
-		Thread.sleep(2000l);
+		boolean flag = SelectID.isSelected();
+		if(flag)
+		{
+			System.out.println("Email id Already selected");
+		}
+		else
+		{
+			Thread.sleep(1000l);
+			 HighLighter.highLightElement(driver,SelectID);
+			SelectID.click();
+		}
+		
+		
+		Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver, Savebtn);
 		 Savebtn.click();
+		 
+		 
+		 Thread.sleep(1000l);
+		 HighLighter.highLightElement(driver,goTojobListbtn);
+		 goTojobListbtn.click();
+		 
+		 
 	}
 	
 	

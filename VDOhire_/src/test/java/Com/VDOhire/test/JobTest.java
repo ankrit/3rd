@@ -9,6 +9,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.sikuli.script.FindFailed;
+import org.sikuli.script.Screen;
 import org.testng.annotations.Test;
 
 import Com.VDOhire.generic.BasicExtentReport;
@@ -21,6 +22,7 @@ import Com.VDOhire.pom.JobPage;
 import Com.VDOhire.pom.LoginPage;
 import Com.VDOhire.pom.ManageAssessmentSetsPage;
 import Com.VDOhire.pom.RecruiterSetUpPage;
+import Com.VDOhire.pom.SendInvitationsPage;
 
 
 public class JobTest extends BasicExtentReport
@@ -29,14 +31,14 @@ public class JobTest extends BasicExtentReport
 	//public WebDriver driver;
 	
 	@Test
-	public void logInforJobCreation() throws EncryptedDocumentException, FileNotFoundException, InvalidFormatException, IOException, InterruptedException 
+	public void logInforJobCreation() throws EncryptedDocumentException, FileNotFoundException, InvalidFormatException, IOException, InterruptedException, FindFailed 
 	{
 	
 		test = extent.createTest("logInWithPositiveValue", "PASSED test case");
 		
 		 LoginPage login= new  LoginPage(driver);
 		
-		 Thread.sleep(5000l);
+		 Thread.sleep(2000l);
 		
 		 login.LoginForEmpButton();
 		 
@@ -66,7 +68,7 @@ public class JobTest extends BasicExtentReport
 	System.out.println("Start Creating Job in main Tab");
 	
 	 //String excelpath1="C:\\Users\\vinda\\eclipse-workspace\\VDOhire_\\ExcelSheet\\testdata.xlsx";
-	Thread.sleep(8000l);
+	Thread.sleep(3000l);
 	
 	String title=null;
 	String country =null;
@@ -111,12 +113,14 @@ public class JobTest extends BasicExtentReport
 	 
 	//String title1 = ExcelUtility.getExcelSheet(excelpath, "Shashank", 13, 1);
 	
-	Thread.sleep(3000l);
+	Thread.sleep(2000l);
 	job.createJobInMainTab(driver,title,country,city);
 	
 	job.SalarytoandFrom(driver,salaryfrom,salaryto);
 	
 	job.SecondSideField(driver, jobid, vacancy, qualification,notice );
+	
+//	job.ScrollInjob(driver);
 	
 	JobConfigTabPage config=new JobConfigTabPage(driver);
 	Thread.sleep(5000l);
@@ -126,10 +130,11 @@ public class JobTest extends BasicExtentReport
 	
 	String setname = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 1);
 	String noofque = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 2);
+	
 	String setname2 = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 3);
 	
 	InterviewTabPage interview=new InterviewTabPage(driver);
-	Thread.sleep(2000l);
+	Thread.sleep(1000l);
 	  interview.setUpInterview(driver,setname, noofque, setname2);
 	
 	  
@@ -144,17 +149,51 @@ public class JobTest extends BasicExtentReport
 	
 	  ManageAssessmentSetsPage manage=new ManageAssessmentSetsPage(driver);
 	  
-	  Thread.sleep(2000l);
+	  Thread.sleep(1000l);
 	  manage.setTheAssessmentTypeQue(driver, setname1, duration, noofque, setque2, selectType);
 	
 	
 	
 	
 	  //String RecruiterEmailID = ExcelUtility.getExcelSheet(excelpath, "Shashank", 16, 1);
-	  Thread.sleep(2000l);
+	  Thread.sleep(1000l);
 	  RecruiterSetUpPage recu=new RecruiterSetUpPage(driver);
 	
 	recu.setUpRecruiter(driver);
+	
+/*************************************/	
+	
+	 SendInvitationsPage si=new SendInvitationsPage(driver);
+		
+	 
+		Thread.sleep(1000l);
+//		   si.SendInvitation(driver);
+//		   Thread.sleep(2000l);
+		   si.InviteUsers(driver);
+		 
+		   
+/******  use sikuli for desktop app  ************/
+		   
+		   Screen src=new Screen();
+		   
+		  org.sikuli.script.Pattern pattern=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\filename.PNG");
+	
+		   org.sikuli.script.Pattern openbtn=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\open.PNG");
+			
+				src.type(pattern,"C:\\Users\\vinda\\Desktop\\test1.csv");
+			
+			 WaitStatementLib wait=new WaitStatementLib();
+				
+				wait.implicitWaitForSecond(driver, 20); 
+			 
+				
+			  src.click(openbtn);
+			  
+			  Thread.sleep(1000l);
+			  si.SendInvitedBtn(driver);
+			  
+/******  end sikuli code for desktop app  ************/			  
+		  	   
 	
 	
 	

@@ -1,5 +1,6 @@
 package Com.VDOhire.pom;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -75,6 +76,17 @@ public class InterviewTabPage {
 	@FindBy(xpath="(//button[text()='×'])[2]")
 	private WebElement cutTheInterviewpage;
 	
+	@FindBy(xpath="//span[text()='Select Interview']")
+	private WebElement selectInterview;
+	
+
+	@FindBy(xpath="//div[@id='interviewAttach_chosen']//div[@class='chosen-search']/input")
+	private WebElement searchField;
+	
+	
+	
+	
+	
 	public InterviewTabPage (WebDriver driver)
 	{
 		PageFactory.initElements( driver,this);
@@ -82,23 +94,23 @@ public class InterviewTabPage {
 	
 	public void setUpInterview(WebDriver driver,String setname,String noofque,String setname2) throws InterruptedException
 	{
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		HighLighter.highLightElement(driver, interviewTab);
 		interviewTab.click();
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		HighLighter.highLightElement(driver, manageinterview);
 		manageinterview.click();
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		HighLighter.highLightElement(driver, addInterviewSetup);
 		addInterviewSetup.click();
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		HighLighter.highLightElement(driver, setName);
 		setName.sendKeys(setname);
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		HighLighter.highLightElement(driver, addRandomQue);
 		addRandomQue.click();
 		
@@ -106,16 +118,16 @@ public class InterviewTabPage {
 //		HighLighter.highLightElement(driver,addInterviewQue);
 //		addInterviewQue.click();
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		HighLighter.highLightElement(driver, SelectQueBank);
 		Select sel=new Select(SelectQueBank);
 		sel.selectByIndex(4);
 		
-		Thread.sleep(2000l);
+		Thread.sleep(1000l);
 		HighLighter.highLightElement(driver, noOfque);
 		 noOfque.sendKeys(noofque);
 		 
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver,xbtn1);
 		 xbtn1.click();
 		 
@@ -123,46 +135,60 @@ public class InterviewTabPage {
 //		 HighLighter.highLightElement(driver,xbtn2);
 //		 xbtn2.click();
 		 
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver,  saveBtn);
 		 saveBtn.click();
 		
 		/***************VHinterviewSet**********************/
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver, VHqueBank);
 		 VHqueBank.click();
 		 
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver,VHinterviewSet);
 		 VHinterviewSet.click();
 		 
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver, backBtm);
 		 backBtm.click();
 		
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver,  myQueBank);
 		 myQueBank.click();
 		 
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver, addQueBank);
 		 addQueBank.click();
 		 
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver,  SetnameforaddQuebnk);
 		 SetnameforaddQuebnk.sendKeys(setname2);
 		 
-		 Thread.sleep(2000l);
+		 Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver, QueBankType);
 		 Select sel2=new Select(QueBankType);
 		  sel2.selectByIndex(1);
 		  
-		  Thread.sleep(2000l);
+		  Thread.sleep(1000l);
 		  HighLighter.highLightElement(driver, saveBtn2);
 		  saveBtn2.click();
 		  
 		  HighLighter.highLightElement(driver,cutTheInterviewpage);
 		  cutTheInterviewpage.click();
+		  
+		  
+		  Thread.sleep(1000l);
+		  HighLighter.highLightElement(driver,selectInterview);
+		  selectInterview.click();
+		  
+		  Thread.sleep(1000l);
+		  HighLighter.highLightElement(driver, searchField);
+		 searchField.sendKeys(setname+Keys.ENTER);
+		  
+		  
+		  
+//		Select sel4=new Select(selectInterview);
+//		sel4.selectByIndex(2);
 	}
 	
 	

@@ -31,7 +31,7 @@ public class JobConfigTabPage {
     public void setUpJobType(WebDriver driver) throws InterruptedException
     {
     	
-    	Thread.sleep(2000l);
+    	Thread.sleep(1000l);
     	//HighLighter.highLightElement(driver, ExternalJobChkBox);
     	boolean flag = ExternalJobChkBox.isSelected();
     	//System.out.println(flag);

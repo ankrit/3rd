@@ -8,6 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import Com.VDOhire.generic.HighLighter;
+import Com.VDOhire.generic.WaitStatementLib;
+
 public class LoginPage 
 {
 	WebDriver driver;
@@ -37,16 +40,23 @@ public class LoginPage
 	public void LoginForEmpButton() throws InterruptedException
 	
 	{
+		//WaitStatementLib.implicitWaitForSecond(driver,10);
 		Thread.sleep(5000l);
+		// HighLighter.highLightElement(driver,LoginForEmpBtn);
 		LoginForEmpBtn.click();
 		
 	}
-	public void getLoginPage( String username , String password)
+	public void getLoginPage( String username , String password) throws InterruptedException
 
 	{
-		
+//		Thread.sleep(1000l);
+//		HighLighter.highLightElement(driver,userTxBox);
 		userTxBox.sendKeys(username);
+//		Thread.sleep(500);
+//		HighLighter.highLightElement(driver,passTxBox);
 		passTxBox.sendKeys(password);
+//		Thread.sleep(500);
+//		HighLighter.highLightElement(driver,Loginbuttn);
 		Loginbuttn.click();
 		
 	}

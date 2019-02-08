@@ -7,19 +7,21 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
+import Com.VDOhire.generic.HighLighter;
+
 public class SendInvitationsPage  {
 
-	@FindBy(xpath="//a[text()='Send Job Invitation']")
-	private WebElement SendInvitationbtn;
+//	@FindBy(xpath="//a[text()='Send Job Invitation']")
+//	private WebElement SendInvitationbtn;
 	
 	
-	@FindBy(xpath="(//a[@title='Invite users'])[1]")
+	@FindBy(xpath="(//a[@title='Invite users'])[1]/i")
 	private WebElement InvtUser;
 	
 	@FindBy(xpath="(//input[@id='inviteFrom_2'])[1]")
 	private WebElement smsCheckbox;
 	
-	@FindBy(xpath="//input[@type='file']")
+	@FindBy(xpath="(//input[@type='file'])[2]")
 	private WebElement browserbtn;
 	
 	@FindBy(xpath="(//button[text()='Send Invitation'])[1]")
@@ -32,22 +34,29 @@ public class SendInvitationsPage  {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void SendInvitation(WebDriver driver)
-	{
-		
-		SendInvitationbtn.click();
-	}
+//	public void SendInvitation(WebDriver driver)
+//	{
+//		
+//		SendInvitationbtn.click();
+//	}
 	
-	public void InviteUsers(WebDriver driver)
+	public void InviteUsers(WebDriver driver) throws InterruptedException
 	{
+		HighLighter.highLightElement(driver,InvtUser);
 		InvtUser.click();
+		
+		Thread.sleep(1000l);
+		HighLighter.highLightElement(driver,smsCheckbox);
 		smsCheckbox.click();
+		HighLighter.highLightElement(driver,browserbtn);
 		browserbtn.click();
 		
 	}
 	
-	public void SendInvitedBtn(WebDriver driver)
+	public void SendInvitedBtn(WebDriver driver) throws InterruptedException
 	{
+		Thread.sleep(1000l);
+		HighLighter.highLightElement(driver,SendInvitationbtn2);
 		SendInvitationbtn2.click();
 		
 	}
