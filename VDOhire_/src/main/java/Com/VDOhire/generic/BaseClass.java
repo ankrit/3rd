@@ -3,28 +3,37 @@ package Com.VDOhire.generic;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
+import org.openqa.selenium.chrome.ChromeDriverService;
+
 public class BaseClass {
 	
 	 
 	 public WebDriver driver;
+	 public DesiredCapabilities cap;
 	 @BeforeMethod()
 	 
 	 @Parameters({"browser","url"})
 	
 	 
 	 
-	public String confiBrowser(String browser,String url) 
+	public String confiBrowser(String browser,String url) throws MalformedURLException 
 	{
 		 if(browser.equalsIgnoreCase("firefox"))
 		 {
@@ -36,10 +45,19 @@ public class BaseClass {
 		 
 	    else if (browser.equalsIgnoreCase("chrome"))
 		 {
-			 System.setProperty("webdriver.chrome.driver", ".\\exefiles\\chromedriver.exe");
-		        driver =new ChromeDriver();
+	     System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinda\\git\\shashank\\VDOhire_\\exefiles\\chromedriver.exe");
+//	          driver =new ChromeDriver();
+//	        Reporter.log("chrome launch", true);
+			 DesiredCapabilities cap = DesiredCapabilities.chrome();
+	  	
+			 cap.setPlatform(Platform.ANY);
+			 
+			 URL url1 = new URL("http://192.168.1.252:4444/wd/hub");
+			 
+			  driver =new RemoteWebDriver(url1, cap);
+	    	
 		        Reporter.log("Chrome launch", true);
-		      //  driver.get(PropertyFiles.getPropertyValue("URL"));
+		      
 		 }
 		 
 		 else if(browser.equalsIgnoreCase("ie"))

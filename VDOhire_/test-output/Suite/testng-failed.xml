@@ -3,7 +3,7 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <parameter name="OS" value="Windows"/>
   <parameter name="browser" value="chrome"/>
-  <parameter name="url" value="https://vdohire.com"/>
+  <parameter name="url" value="http://vdohire.com"/>
   <test name="Extent Report Test1(failed)">
     <classes>
       <class name="Com.VDOhire.test.JobTest">

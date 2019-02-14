@@ -5,7 +5,7 @@
 <parameter name="browser" value="chrome"/>
 
 
-  <parameter name="url" value="https://vdohire.com"/>
+  <parameter name="url" value="http://vdohire.com"/>
 
   <test name="Extent Report Test1">
    <classes>

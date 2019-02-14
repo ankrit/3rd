@@ -52,7 +52,7 @@ public class JobTest extends BasicExtentReport
 		
 		 login.getLoginPage(username, password);		
 			
-	
+	 
 	 login.varifyWithAssert(driver);
 	 
 	//Thread.sleep(50000l);
