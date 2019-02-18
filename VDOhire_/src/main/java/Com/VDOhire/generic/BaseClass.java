@@ -46,15 +46,15 @@ public class BaseClass {
 	    else if (browser.equalsIgnoreCase("chrome"))
 		 {
 	     System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinda\\git\\shashank\\VDOhire_\\exefiles\\chromedriver.exe");
-//	          driver =new ChromeDriver();
-//	        Reporter.log("chrome launch", true);
-			 DesiredCapabilities cap = DesiredCapabilities.chrome();
-	  	
-			 cap.setPlatform(Platform.ANY);
-			 
-			 URL url1 = new URL("http://192.168.1.252:4444/wd/hub");
-			 
-			  driver =new RemoteWebDriver(url1, cap);
+	          driver =new ChromeDriver();
+	        Reporter.log("chrome launch", true);
+//			 DesiredCapabilities cap = DesiredCapabilities.chrome();
+//	  	
+//			 cap.setPlatform(Platform.ANY);
+//			 
+//			 URL url1 = new URL("http://192.168.1.252:4444/wd/hub");
+//			 
+//			  driver =new RemoteWebDriver(url1, cap);
 	    	
 		        Reporter.log("Chrome launch", true);
 		      

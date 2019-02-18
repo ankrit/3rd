@@ -29,10 +29,12 @@ public class SendInvitationsPage  {
 	
 	
 	
+	
 	public SendInvitationsPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
 	
 //	public void SendInvitation(WebDriver driver)
 //	{
@@ -59,7 +61,12 @@ public class SendInvitationsPage  {
 		HighLighter.highLightElement(driver,SendInvitationbtn2);
 		SendInvitationbtn2.click();
 		
+		
+		
+
 	}
+	
+	
 	
 	
 	

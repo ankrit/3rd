@@ -16,6 +16,7 @@ import Com.VDOhire.generic.BasicExtentReport;
 import Com.VDOhire.generic.ExcelUtility;
 import Com.VDOhire.generic.HighLighter;
 import Com.VDOhire.generic.WaitStatementLib;
+import Com.VDOhire.pom.DeleteInterviewSetAndJob;
 import Com.VDOhire.pom.InterviewTabPage;
 import Com.VDOhire.pom.JobConfigTabPage;
 import Com.VDOhire.pom.JobPage;
@@ -176,9 +177,9 @@ public class JobTest extends BasicExtentReport
 		   
 		   Screen src=new Screen();
 		   
-		  org.sikuli.script.Pattern pattern=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\filename.PNG");
+		  org.sikuli.script.Pattern pattern=new org.sikuli.script.Pattern("C:\\Users\\vinda\\git\\shashank\\VDOhire_\\ScreenshotForSikuli\\filename.PNG");
 	
-		   org.sikuli.script.Pattern openbtn=new org.sikuli.script.Pattern("C:\\Users\\vinda\\Desktop\\open.PNG");
+		   org.sikuli.script.Pattern openbtn=new org.sikuli.script.Pattern("C:\\Users\\vinda\\git\\shashank\\VDOhire_\\ScreenshotForSikuli\\open.PNG");
 			
 				src.type(pattern,"C:\\Users\\vinda\\Desktop\\test1.csv");
 			
@@ -195,7 +196,8 @@ public class JobTest extends BasicExtentReport
 /******  end sikuli code for desktop app  ************/			  
 		  	   
 	
-	
+			  DeleteInterviewSetAndJob delete=new DeleteInterviewSetAndJob(driver);
+			  delete.deleteJobAndDettachInterviewSet(driver);
 	
 	}	
 }

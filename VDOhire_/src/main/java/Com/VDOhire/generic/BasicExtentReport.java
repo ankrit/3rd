@@ -43,7 +43,8 @@ public class BasicExtentReport extends BaseClass
 	
 	//builds a new report using the html template 
 
-    public static ExtentHtmlReporter htmlReporter;
+
+	public static ExtentHtmlReporter htmlReporter;
     
    public static ExtentReports extent;
     
