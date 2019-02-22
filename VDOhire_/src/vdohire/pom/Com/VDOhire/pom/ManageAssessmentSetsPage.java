@@ -103,7 +103,7 @@ public class ManageAssessmentSetsPage {
 		Thread.sleep(1000l);
 		 HighLighter.highLightElement(driver, selectRandomQueBnk);
 		Select sel3=new Select(selectRandomQueBnk);
-		sel3.selectByIndex(12);
+		sel3.selectByIndex(11);
 		
 		
 		

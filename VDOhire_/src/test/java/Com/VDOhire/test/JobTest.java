@@ -22,7 +22,9 @@ import Com.VDOhire.pom.JobConfigTabPage;
 import Com.VDOhire.pom.JobPage;
 import Com.VDOhire.pom.LoginPage;
 import Com.VDOhire.pom.ManageAssessmentSetsPage;
+import Com.VDOhire.pom.RecruiterPage;
 import Com.VDOhire.pom.RecruiterSetUpPage;
+import Com.VDOhire.pom.ReportPage;
 import Com.VDOhire.pom.SendInvitationsPage;
 
 
@@ -198,6 +200,17 @@ public class JobTest extends BasicExtentReport
 	
 			  DeleteInterviewSetAndJob delete=new DeleteInterviewSetAndJob(driver);
 			  delete.deleteJobAndDettachInterviewSet(driver);
+			  
+			  Thread.sleep(2000l);
+			  String Name = ExcelUtility.getExcelSheet(excelpath, "Shashank", 22, 1);
+			  String mobileno = ExcelUtility.getExcelSheet(excelpath, "Shashank", 22, 2);
+			  String emailid = ExcelUtility.getExcelSheet(excelpath, "Shashank", 22, 3);
+			  
+			  RecruiterPage re=new RecruiterPage(driver);
+			   re.createRecruiter(driver,Name, mobileno, emailid);
+			   
+			   ReportPage report=new ReportPage(driver);
+			   report.reporttab(driver);
 	
 	}	
 }

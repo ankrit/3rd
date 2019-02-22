@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="OS" value="Windows"/>
+<parameter name="browser" value="chrome"/>
+
+
+  <parameter name="url" value="http://vdohire.com"/>
+
+  <test name="Extent Report Test1">
+   <classes>
+     
+     <class name="Com.VDOhire.generic.BasicExtentReport"/>
+      <class name="Com.VDOhire.test.JobTest"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
