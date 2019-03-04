@@ -9,7 +9,7 @@ import Com.VDOhire.generic.HighLighter;
 
 public class ReportPage {
 	
-	@FindBy(xpath="//a[@class='navbar-nav-class navbar-anchor-color']")
+	@FindBy(xpath="(//a[@href='https://vdohire.com/admin/analytics/list'])[1]")
 	private WebElement reportab;
 	
 	@FindBy(xpath="//a[contains(text(),'Applications')]")
@@ -32,11 +32,11 @@ public class ReportPage {
 	
 	public void reporttab(WebDriver driver) throws InterruptedException
 	{
-		 Thread.sleep(1000l);
+		 Thread.sleep(2000l);
 		 HighLighter.highLightElement(driver, reportab);
 		reportab.click();
 		
-		 Thread.sleep(1000l);
+		 Thread.sleep(2000l);
 		 HighLighter.highLightElement(driver, apptab);
 		 apptab.click();
 		 

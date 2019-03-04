@@ -61,12 +61,13 @@ public class LoginPage
 		
 	}
 	 
-	public WebDriver varifyWithAssert(WebDriver driver)
+	public WebDriver varifyWithAssert(WebDriver driver) throws InterruptedException
 	{
+		Thread.sleep(2000l);
 		String expected= "VDOHire";
 		
 		String actual = driver.getTitle();
-		//System.out.println(actual);
+		System.out.println(actual);
 		
 		 Assert.assertEquals(actual,expected, "Home-page title is not verified..!!!" );
 		 
@@ -78,10 +79,10 @@ public class LoginPage
 	{
    String expected ="The Email field must contain a valid email address.";
  
-		String actual = errormsg.getText();
-		   //System.out.println(actual);
+		String actual1 = errormsg.getText();
+		   System.out.println(actual1);
 		
-		Assert.assertEquals(expected, actual, "error smg is not coming");
+		Assert.assertEquals(expected, actual1, "error smg is not coming");
 		
 		Reporter.log("error msg is verifyed successfully ):", true);
 		

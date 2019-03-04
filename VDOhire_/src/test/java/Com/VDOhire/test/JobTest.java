@@ -16,6 +16,7 @@ import Com.VDOhire.generic.BasicExtentReport;
 import Com.VDOhire.generic.ExcelUtility;
 import Com.VDOhire.generic.HighLighter;
 import Com.VDOhire.generic.WaitStatementLib;
+import Com.VDOhire.pom.ApplicantsPage;
 import Com.VDOhire.pom.DeleteInterviewSetAndJob;
 import Com.VDOhire.pom.InterviewTabPage;
 import Com.VDOhire.pom.JobConfigTabPage;
@@ -209,6 +210,10 @@ public class JobTest extends BasicExtentReport
 			  RecruiterPage re=new RecruiterPage(driver);
 			   re.createRecruiter(driver,Name, mobileno, emailid);
 			   
+//			   ApplicantsPage appli=new ApplicantsPage(driver);
+//			   appli.ApplicantspageCheck(driver);
+			   
+			   Thread.sleep(2000l);
 			   ReportPage report=new ReportPage(driver);
 			   report.reporttab(driver);
 	

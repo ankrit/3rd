@@ -54,11 +54,15 @@ public class  GmailVerifyPage
 	 HighLighter.highLightElement(driver, Nextbtn);
 	 Nextbtn.click();
 	 
-	 HighLighter.highLightElement(driver, moreBtn);
-	 moreBtn.click();
+//	 HighLighter.highLightElement(driver, moreBtn);
+//	 moreBtn.click();
 	 
-	 HighLighter.highLightElement(driver, spanBtn);
-	 spanBtn.click();
+	// HighLighter.highLightElement(driver, spanBtn);
+	// spanBtn.click();
+	 
+	 
+	 
+	 
 	 
 	 HighLighter.highLightElement(driver, vdohire);
 	 vdohire.click();

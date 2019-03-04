@@ -19,7 +19,6 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-
 import org.openqa.selenium.chrome.ChromeDriverService;
 
 public class BaseClass {
@@ -27,6 +26,7 @@ public class BaseClass {
 	 
 	 public WebDriver driver;
 	 public DesiredCapabilities cap;
+	 
 	 @BeforeMethod()
 	 
 	 @Parameters({"browser","url"})
@@ -47,7 +47,7 @@ public class BaseClass {
 		 {
 	     System.setProperty("webdriver.chrome.driver", "C:\\Users\\vinda\\git\\shashank\\VDOhire_\\exefiles\\chromedriver.exe");
 	          driver =new ChromeDriver();
-	        Reporter.log("chrome launch", true);
+//	        Reporter.log("chrome launch", true);
 //			 DesiredCapabilities cap = DesiredCapabilities.chrome();
 //	  	
 //			 cap.setPlatform(Platform.ANY);
@@ -55,7 +55,7 @@ public class BaseClass {
 //			 URL url1 = new URL("http://192.168.1.252:4444/wd/hub");
 //			 
 //			  driver =new RemoteWebDriver(url1, cap);
-	    	
+//	    	
 		        Reporter.log("Chrome launch", true);
 		      
 		 }
@@ -96,6 +96,7 @@ public class BaseClass {
 	   
 			ScreenShotLib scr=new ScreenShotLib();
 			
+		
 			   scr.getScreenShotAs(driver, filename);
 			   Reporter.log("screenshot captured",true);
     

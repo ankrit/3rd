@@ -84,9 +84,7 @@ public class InterviewTabPage {
 	private WebElement searchField;
 	
 	
-	
-	
-	
+
 	public InterviewTabPage (WebDriver driver)
 	{
 		PageFactory.initElements( driver,this);
